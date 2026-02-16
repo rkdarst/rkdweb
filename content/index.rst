@@ -1,8 +1,44 @@
 Richard Darst
 =============
 
+.. raw:: html
+
+   <a rel="me" hidden href="https://fosstodon.org/@rkdarst"></a>
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+   :hidden:
+
+.. toctree::
+   :caption: Links
+
+   Github <https://github.com/rkdarst/>
+
+
+.. toctree::
+   :caption: Affiliations
+
+   Aalto Scientific Computing <https://scicomp.aalto.fi>
+   CodeRefinery <https://coderefinery.org>
+   Nordic-RSE <https://nordic-rse.org>
+   Wild Eagles <https://www.wildeagles.fi/>
+
+
+Basics
+------
+
+* Former student of chemical engineering, chemistry, and physics,
+  networks, and data scientist.
+* Current research [software] engineer.
+
+
+About
+-----
+
 As of 2022, I'm leading the `Research Software Engineering team at
-Aalto University <https://scicomp.aalto.fi/rse/>` and doing a lot of
+Aalto University <https://scicomp.aalto.fi/rse/>`__ and doing a lot of
 other work in teaching and research support.  I'm especially
 interested in how all of our services come together to make everything
 possible, and thus am looking at some of the more systematic barriers
@@ -20,50 +56,51 @@ Overall, it is still similar to what you see in the paragraph below,
 but more focus on good infrastructure, usability, teaching, and
 hands-on support as necessary parts of advanced computing.
 
-Previously, I was a researcher in the Complex Systems group
-(`Department of Computer Science <https://cs.aalto.fi>`__), part of
-the `Science-IT <https://scicomp.aalto.fi>`__ team, and in research
-data management support at the University level.  I continue as a
-researcher in networks, data science, and human behavior.  As part of
-Science-IT, I help to maintain the Aalto's Triton HPC cluster, in
-particular supporting data-intensive use cases.  At the university
-level, I am developing researcher support for data management and
-data-intensive research.  Currently, I am particularly interested in
-practical training, security, confidential/personal data, privacy, and
-changes caused by our new data-driven society.
+Previously, I was a researcher in the Complex Systems group (`Department of Computer
+Science`__), part of the `Science-IT`__ team, and in research data
+management support at the University level.  I continue
+as a researcher in networks, data science, and human
+behavior.  As part of Science-IT, I help to maintain the Aalto's Triton HPC
+cluster, in particular supporting data-intensive use cases.  At
+the university level, I am developing researcher support for data
+management and data-intensive research.  Currently, I am particularly
+interested in practical training, security, confidential/personal
+data, privacy, and changes caused by our new data-driven society.
 
-Previously, I was a postdoc in the same `Complex Networks
-<https://complex.cs.aalto.fi>`__ group in the Department of Computer
-Science (originally in the Department of Biomedical Engineering and
-Computational Science), `Aalto University <https://aalto.fi/en/>`__,
-Finland.  I took this job to expand my skills from the theory of my
-previous physics work to more applied fields.  My specialty was
-networks, Community Detection (the understanding and search of
-structure within networks), and data science.
+__ http://cs.aalto.fi/en/
+__ http://science-it.aalto.fi/
 
-Previously, I was a graduate student (Ph.D., Chemical Physics) at
-Columbia University, in the group of David Reichman, in the general
-field of chemical physics.  In particular, I studied the theoretical
-basis of the glass transition.  During this time, I got interested in
+Previously, I was a postdoc in the same `Complex Networks`__ group in
+the Department of Computer Science (originally in the `Department of
+Biomedical Engineering and Computational Science`__), `Aalto
+University`__, Finland.  I took this job to expand my skills from the
+theory of my previous physics work to more applied fields.  My
+specialty was networks, Community Detection (the understanding and
+search of structure within networks), and data science.
+
+__ https://www.aalto.fi/en/department-of-computer-science/complex-systems
+__ http://becs.aalto.fi/en/
+__ http://www.aalto.fi/en/
+
+Previously, I was a graduate student (Ph.D., Chemical Physics) at Columbia
+University, in the `group of David Reichman`__, in the general field
+of chemical physics.  In particular, I studied the theoretical basis
+of the glass transition.  During this time, I got interested in
 applying community detection to my glass problems, eventually leading
 to my transition to a network scientist.
 
+__ http://www.columbia.edu/cu/chemistry/groups/reichman/index.html
+
 Before that, I was an undergraduate at the University of Texas at
 Austin (B.S., Chemistry) where I researched solvation and statistical mechanics under
-Peter Rossky, a theoretical chemist.  I began my undergraduate studies as a
+`Peter Rossky`__, a theoretical chemist.  I began my undergraduate studies as a
 chemical engineer, but switched to chemistry to be able to focus on
 more theory and advanced math and physics.
 
+__ http://rossky.cm.utexas.edu/
 
 
+Contact
+-------
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Links
-
-   GitHub <https://github.com/rkdarst/>
-
-
-.. raw:: html
-
-   <a rel="me" hidden href="https://fosstodon.org/@rkdarst"></a>
+``echo rk`echo "q@mtvo.a" | tr "n-za-m" "a-mn-z"`et``

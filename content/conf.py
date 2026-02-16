@@ -7,13 +7,13 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = 'Richard Darst'
-copyright = '2026, Richard Darst'
+copyright = '2025, Richard Darst'
 author = 'Richard Darst'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ['ablog']
+extensions = []
 
 templates_path = ['_templates']
 exclude_patterns = []
@@ -25,3 +25,7 @@ exclude_patterns = []
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+html_logo = 'zeppelinbend-3b.jpg'
+html_sidebars = {
+    #'**': ['globaltoc.html'],
+    }
