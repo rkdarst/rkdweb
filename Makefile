@@ -20,12 +20,13 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 
-publish:
+publish: dirhtml
+# git clone ghr:rkdweb rkdweb.git
 	echo .buildinfo* > build/dirhtml/.gitignore
 	echo rkd.zgib.net > build/dirhtml/CNAME
 	echo > build/dirhtml/.nojekyll
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ add .
 	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ branch -D gh-pages
 	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ checkout --orphan gh-pages
+	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ add .
 	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ commit -m "update, from $(git describe --always --dirty)"
 	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ push -u -f origin gh-pages
