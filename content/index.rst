@@ -8,17 +8,19 @@ Richard Darst
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Contents
    :hidden:
 
 .. toctree::
    :caption: Links
+   :hidden:
 
    Github <https://github.com/rkdarst/>
 
 
 .. toctree::
    :caption: Affiliations
+   :hidden:
 
    Aalto Scientific Computing <https://scicomp.aalto.fi>
    CodeRefinery <https://coderefinery.org>
