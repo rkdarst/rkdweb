@@ -49,7 +49,13 @@ Posts
 About
 -----
 
-As of 2022, I'm leading the `Research Software Engineering team at
+As of 2025, the Research Software Engineer team is taking up most of
+my time, and my job is now making sure everyone can do the best job
+they can and training/mentoring in all the things I did before.  I'm
+more involved in the team strategy as it grows.  When possible I
+still always like a good coding project.
+
+As of 2020, I'm leading the `Research Software Engineering team at
 Aalto University <https://scicomp.aalto.fi/rse/>`__ and doing a lot of
 other work in teaching and research support.  I'm especially
 interested in how all of our services come together to make everything
@@ -59,7 +65,7 @@ to research for everyone.  I'm also heavily involved in `CodeRefinery
 <https://nordic-rse.org>`__.  And the rest of this site is very out of
 date, maybe I should do something about that.
 
-As of 2020, I'm currently a staff scientist at Aalto University,
+As of 2017, I'm currently a staff scientist at Aalto University,
 serving within the Aalto Scientific Computing (Science-IT), Computer
 Science-IT, and Research Services (Data Agent) teams.  Our teams do
 everything, but our best description is the *scientific computing
