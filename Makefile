@@ -20,7 +20,7 @@ help:
 	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
 
-publish: dirhtml
+publish: clean dirhtml
 	echo .buildinfo*  > build/dirhtml/.gitignore
 	echo rkd.zgib.net > build/dirhtml/CNAME
 	echo              > build/dirhtml/.nojekyll
