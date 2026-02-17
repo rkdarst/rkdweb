@@ -21,12 +21,13 @@ help:
 
 
 publish: dirhtml
-# git clone ghr:rkdweb rkdweb.git
-	echo .buildinfo* > build/dirhtml/.gitignore
+	echo .buildinfo*  > build/dirhtml/.gitignore
 	echo rkd.zgib.net > build/dirhtml/CNAME
-	echo > build/dirhtml/.nojekyll
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ branch -D gh-pages
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ checkout --orphan gh-pages
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ add .
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ commit -m "update, from $(git describe --always --dirty)"
-	git --git-dir=rkdweb.git/ --work-tree=build/dirhtml/ push -u -f origin gh-pages
+	echo              > build/dirhtml/.nojekyll
+	git init --bare tmp-rkdweb-gh-pages.git
+	git --git-dir=tmp-rkdweb-gh-pages.git/ remote add origin ghr:rkdweb || true
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ branch -D gh-pages || true
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ checkout --orphan  gh-pages
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ add .
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ commit -m "update, from $(git describe --always --dirty)"
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ push -u -f origin gh-pages
