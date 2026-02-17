@@ -16,6 +16,7 @@ author = 'Richard Darst'
 extensions = [
     'sphinx_rtd_theme_ext_color_contrast',
     'ablog',
+    'sphinx.ext.intersphinx',
 ]
 
 templates_path = ['_templates']
@@ -25,10 +26,16 @@ exclude_patterns = []
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
-
-html_theme = 'sphinx_rtd_theme'
 html_static_path = ['_static']
 html_logo = 'zeppelinbend-3b.jpg'
+
+#html_theme = 'sphinx_rtd_theme'
+
+html_theme = 'alabaster'
+html_css_files = ["alabaster_overrides.css"]
 html_sidebars = {
     #'**': ['globaltoc.html'],
+    '**': ['ablog/recentposts.html',
+           'globaltoc.html',
+	   ],
     }

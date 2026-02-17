@@ -36,6 +36,16 @@ Basics
 * Current research [software] engineer.
 
 
+Posts
+-----
+
+.. postlist::
+   :list-style: circle
+   :category: Manual
+   :format: {title}
+   :sort:
+
+
 About
 -----
 
