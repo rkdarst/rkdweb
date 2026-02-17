@@ -33,7 +33,7 @@ Basics
 
 * Former student of chemical engineering, chemistry, and physics,
   networks, and data scientist.
-* Current research [software] engineer.
+* Current research [software] engineer [team leader].
 
 
 Posts
@@ -104,15 +104,18 @@ to my transition to a network scientist.
 __ http://www.columbia.edu/cu/chemistry/groups/reichman/index.html
 
 Before that, I was an undergraduate at the University of Texas at
-Austin (B.S., Chemistry) where I researched solvation and statistical mechanics under
-`Peter Rossky`__, a theoretical chemist.  I began my undergraduate studies as a
-chemical engineer, but switched to chemistry to be able to focus on
-more theory and advanced math and physics.
+Austin (B.S., Chemistry) where I researched solvation and statistical
+mechanics under `Peter Rossky
+<https://en.wikipedia.org/wiki/Peter_J._Rossky>`__, a theoretical
+chemist.  I began my undergraduate studies as a chemical engineer, but
+switched to chemistry to be able to focus on more theory and advanced
+math and physics.
 
-__ http://rossky.cm.utexas.edu/
 
 
 Contact
 -------
 
 ``echo rk`echo "q@mtvo.a" | tr "n-za-m" "a-mn-z"`et``
+
+`Talks I can give if requested <https://cryptpad.fr/pad/#/2/pad/view/K6+G3gNnU80A0mZHzDdtaN5rIq3uF+aSM4oAbfg0sGs/>`__.
