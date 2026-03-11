@@ -9,6 +9,7 @@
 project = 'Richard Darst'
 copyright = '2026, Richard Darst'
 author = 'Richard Darst'
+html_title = "Richard Darst"
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
