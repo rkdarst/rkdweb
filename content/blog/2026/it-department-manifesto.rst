@@ -15,7 +15,7 @@ BEGIN MANIFESTO
 
 In my travels, I've met many people and seen one pattern: at every
 university, people are upset at their (central university) IT
-departments.  Why is this?  I'll argue isn't not because of the
+departments.  Why is this?  I'll argue it isn't because of the
 people: individually, at my university, all the people I know in our
 IT Services unit are quite competent and motivated.
 
