@@ -18,6 +18,7 @@ extensions = [
     'sphinx_rtd_theme_ext_color_contrast',
     'ablog',
     'sphinx.ext.intersphinx',
+    'myst_parser',
 ]
 
 templates_path = ['_templates']
