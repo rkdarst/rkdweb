@@ -1,6 +1,3 @@
-.. include:: sidebar.rst
-.. title:: Research
-
 Research
 ========
 
