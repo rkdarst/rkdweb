@@ -27,6 +27,10 @@ jobs:
       - name: Build Sphinx docs (dirhtml)
         run: |
           make dirhtml
+      - name: CNAME and .nojekyll
+        run: |
+          echo              > build/dirhtml/.nojekyll
+          echo rkd.zgib.net > build/dirhtml/CNAME
       - uses: actions/upload-artifact@v4
         if: ${{ github.ref == format('refs/heads/{0}', env.DEFAULT_BRANCH) }}
         with:
