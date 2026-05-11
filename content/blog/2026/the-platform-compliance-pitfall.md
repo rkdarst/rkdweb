@@ -107,3 +107,7 @@ intention after all), easier for us to document (long term, once we
 understand how to do it), and more interesting for our legal services
 who are supervising things.  I'm not saying it will be easy, or even
 possible, but it will be useful.
+
+While I haven't been that involved in these "platform compliance
+problems", I've seen this and think we should give more thought to the
+platform effects in the future.
