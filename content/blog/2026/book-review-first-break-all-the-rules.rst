@@ -1,7 +1,7 @@
 :blogpost: true
 :date: 2026-04-26
 :author: Richard Darst
-:category: work
+:category: book-review, work
 
 
 Book review: First, break all the rules

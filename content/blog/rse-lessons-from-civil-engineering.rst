@@ -1,7 +1,7 @@
 :blogpost: true
 :date: 2025-07-31
 :author: Richard Darst
-:category: book-reviews
+:category: book-review
 :tags: rse
 
 
