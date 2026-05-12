@@ -85,8 +85,8 @@ management and data-intensive research.  Currently, I am particularly
 interested in practical training, security, confidential/personal
 data, privacy, and changes caused by our new data-driven society.
 
-__ http://cs.aalto.fi/en/
-__ http://science-it.aalto.fi/
+__ https://cs.aalto.fi/en/
+__ https://scicomp.aalto.fi/
 
 Previously, I was a postdoc in the same `Complex Networks`__ group in
 the Department of Computer Science (originally in the `Department of
@@ -97,8 +97,8 @@ specialty was networks, Community Detection (the understanding and
 search of structure within networks), and data science.
 
 __ https://www.aalto.fi/en/department-of-computer-science/complex-systems
-__ http://becs.aalto.fi/en/
-__ http://www.aalto.fi/en/
+__ https://becs.aalto.fi/en/
+__ https://www.aalto.fi/en/
 
 Previously, I was a graduate student (Ph.D., Chemical Physics) at Columbia
 University, in the `group of David Reichman`__, in the general field
@@ -107,7 +107,7 @@ of the glass transition.  During this time, I got interested in
 applying community detection to my glass problems, eventually leading
 to my transition to a network scientist.
 
-__ http://www.columbia.edu/cu/chemistry/groups/reichman/index.html
+__ https://reichmangroup.chem.columbia.edu/
 
 Before that, I was an undergraduate at the University of Texas at
 Austin (B.S., Chemistry) where I researched solvation and statistical
