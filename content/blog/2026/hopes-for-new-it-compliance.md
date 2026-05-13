@@ -119,6 +119,13 @@ procedures have not been allowed - everything needs separate review.
 With this delegation, there is much more possibility for streamlining
 the normal cases and focusing on the complex ones.
 
+**Don't replicate research compliance.**  There is a whole other
+well-working process for managing personal data in research.  In the
+past, this has been disconnected from the one for IT systems (so
+researchers have to figure out how to do both), even though it has the
+same goal and most of the same steps.  I hope that research projects
+can use only that process.
+
 **More compliance.**  This may seem ironic, but as units determine their
 local procedures and checklists, they will be more inclined to use
 them.  Lower cost means higher uptake.  Less projects will fall
