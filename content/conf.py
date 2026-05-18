@@ -34,6 +34,7 @@ myst_enable_extensions = [
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 html_static_path = ['_static']
 html_logo = 'zeppelinbend-3b.jpg'
+html_favicon = '_static/zeppelinbend-3b.ico'
 
 #html_theme = 'sphinx_rtd_theme'
 
