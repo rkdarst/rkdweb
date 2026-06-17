@@ -11,6 +11,8 @@ Richard Darst
    :caption: Contents
    :hidden:
 
+   https://rkd.zgib.net/blog/
+
 .. toctree::
    :caption: Links
    :hidden:
