@@ -84,6 +84,14 @@ can even do basics without registering).
 
 ## Home servers
 
+
+:::{figure} digital-sovereignty-actions-pis.png
+---
+align: right
+---
+
+:::
+
 I have two [Raspberry Pis](https://en.wikipedia.org/wiki/Raspberry_Pi)
 running stock Raspberry Pi OS. (There are other Raspberry Pi images
 that are designed to host home services more easily, but I could
@@ -102,10 +110,12 @@ hat with (currently) one 500 GiB NVMe.  Nginx serves as a reverse
 proxy and various servers run in Docker.  This is accessible to the
 world and is in the guest network.
 
-To increase reliability, I made the root filesystem on the SSD cards
-to read only ({doc}`debian-read-only-root`).  The idea is I want to
-treat these like an appliance with a long lifetime, not so getting I
-mess with all the time.
+I got Raspberry Pis since it's a Europan company and I wanted new things
+that would have a long lifetime.  To increase reliability, I made the
+root filesystem on the SSD cards to read only
+({doc}`debian-read-only-root`).  The idea is I want to treat these like
+an appliance with a long lifetime, not so getting I mess with all the
+time.
 
 
 
