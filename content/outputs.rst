@@ -26,6 +26,14 @@ There's a lot scattered around, mostly in other places.
 Talks
 -----
 
+Some recent talks (excluding boring ones):
+
+* `In the modern era (age of AI), what can we learn from the history
+  of free and open software ?
+  <https://cryptpad.fr/presentation/#/2/presentation/view/EiU5tmOdvJtbHsybb+DXYYLaHScbxcSN7LXJEJ9R+f8/embed/>`__,
+  Nordic-RSE conference 2026
+
+`Talks I can give if requested <https://cryptpad.fr/pad/#/2/pad/view/K6+G3gNnU80A0mZHzDdtaN5rIq3uF+aSM4oAbfg0sGs/>`__.
 
 
 
