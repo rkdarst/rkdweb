@@ -190,15 +190,19 @@ used fully without any cloud services.
 
 My home cable modem/router (provided by the ISP) is in bridge mode
 (routing/firewall by own router), so that it has no access to the rest
-of our internal networks.  Internally, I have a networks/plans:
+of the internal networks.  Internally, I have a networks:
 
 - primary (own devices)
 - guest (guests and insecure)
 - IoT (no access to the internet, I can access from the primary
   network) (not that I have IoT devices yet anyway)
 - VPN (this is routed so that in can only access the internet through
-  Proton VPN, which runs on the router.  I don't use it for much but
+  Proton VPN, which runs on the router.  It's also exported to the
+  wired network with a tagged vlan, that I can access from a vpn-only
+  virtual machine on my desktop.  I don't use it for much but
   it was a fun diversion / good proof of concept.)
+- ipv6-only (with native ipv6 connectivity, and only that.  I don't
+  use it for anything but it was educational setting it up.)
 
 I invested in these to prepare for a future when routers might get
 more locked down and I need to be more self-sufficient.
