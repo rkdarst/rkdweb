@@ -175,7 +175,7 @@ My desktop runs [Debian](https://en.wikipedia.org/wiki/Debian)
 
 
 
-## Routers
+## Networking and routers
 
 I have two [Mikrotik](https://en.wikipedia.org/wiki/MikroTik) network
 devices in my home, one router and one PoE ceiling mounted access
@@ -206,6 +206,9 @@ of the internal networks.  Internally, I have a networks:
 
 I invested in these to prepare for a future when routers might get
 more locked down and I need to be more self-sufficient.
+
+One future goal is to give my home two public IP addresses: one for my
+home's outgoing traffic, one for incoming web traffic.
 
 I have a [RB5009](https://mikrotik.com/product/rb5009upr_s_in) and
 [cAP ax](https://mikrotik.com/product/cap_ax).
