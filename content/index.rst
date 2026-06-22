@@ -12,7 +12,7 @@ Richard Darst
    :hidden:
 
    outputs
-   https://rkd.zgib.net/blog/
+   blog/index
 
 .. toctree::
    :caption: Links

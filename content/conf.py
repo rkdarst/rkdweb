@@ -41,7 +41,9 @@ html_theme = 'alabaster'
 html_css_files = ["alabaster_overrides.css"]
 html_sidebars = {
     #'**': ['globaltoc.html'],
-    '**': ['ablog/recentposts.html',
-           'globaltoc.html',
-	   ],
+    '**': [
+        'ablog/postcard.html',
+        'globaltoc.html',
+        'ablog/recentposts.html',
+        ],
     }
