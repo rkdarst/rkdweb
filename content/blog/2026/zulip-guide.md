@@ -213,7 +213,7 @@ For expressing agreement/disagreement:
 - ⏫ (`:double_up:`): I agree with you and am willing to do work to
   help make it possible.
 - ↕️ (`:up_down:`): I'm neutral
-- 🔽 (`downvote:`): I don't support this action
+- 🔽 (`:downvote:`): I don't support this action
 - ⏬ (`:double_down:`): I don't support this action and am willing to
   do work for some other sort of solution.
 - 👍 (`:+1:`): General "I agree with the sentiment" message, but
