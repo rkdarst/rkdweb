@@ -31,7 +31,7 @@ jobs:
         run: |
           echo              > build/dirhtml/.nojekyll
           echo rkd.zgib.net > build/dirhtml/CNAME
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: ${{ github.ref == format('refs/heads/{0}', env.DEFAULT_BRANCH) }}
         with:
           name: gh-pages-build
@@ -47,7 +47,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         if: ${{ github.ref == format('refs/heads/{0}', env.DEFAULT_BRANCH ) }}
         with:
           name: gh-pages-build
