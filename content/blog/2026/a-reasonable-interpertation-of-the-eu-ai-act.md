@@ -7,12 +7,14 @@ category: work
 
 # A reasonable interpertation of the EU AI act
 
-A lot has been written about the EU's AI act, and a lot more will still
-be written, since it's still new, and as I have written before, *AI
-doesn't exist*.  I see a need for someone to interpert the AI act with
-the mindset of what is actually going on with "AI", rather than get
-ourselves locked into legal interpertations which aren't useful.  The
-actual technology and societal context matters.
+A lot has been written about the EU's AI act, and a lot more will
+still be written, since it's still new, and as [I have written
+before](https://aaltoscicomp.github.io/blog/2026/what-is-ai/),
+*"artificial intelligence" doesn't exist*.  I see a need for someone
+to interpret the AI act with the mindset of what is actually going on
+with "AI", rather than get ourselves locked into legal interpretations
+which do more harm than good.  The actual technology and societal
+context matters.
 
 How can EU regulations be sound good on the surface but cause us so many
 problems?  It's easy when we don't have a consistent view of what they
@@ -170,4 +172,4 @@ least not if you are using the buzzword "AI" for the sake of "AI".
 # Appendix: AI system details
 
 * The seven actual requirements
-* 
+*
