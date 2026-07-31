@@ -76,8 +76,8 @@ matter how small it is.  This is how we learn of each other's skills.
   inbox at topics and decide what to click or not, so make it easy for
   someone to know if it's relevant to their interests.**
 - You can use a detailed topic description, for example:
-  - " TIL: uv for python package installation"
-  - "Anthropic has acquired uv"
+  - "TIL: uv for python package installation"
+  - "OpenAI has acquired Astral (the company behind uv)"
   - "venv-apptainer: new script for containing virtual environments"
 - **Include a description** - not just a bare link or wall of text.
   **You should put some human effort into the description, even if
