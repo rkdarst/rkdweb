@@ -5,28 +5,28 @@ author: Richard Darst
 category:
 ---
 
-# Blog channels in chat
+# News channels in chat
 
 In the CodeRefinery chat, we've thought about how to build more
 interaction in our chat (even though, compared to some orgs, we think
 we have quite a bit.  Perhaps that's the power of Zulip).  One
-proposal is **"blog channels"** which I will give my thoughts on here.
-The idea is sharing interesting things in chat as if it was a blog,
-with the similar goal of educating ourselves and getting to know each
-other better.
+proposal is **"news channels"** which I will give my thoughts on here.
+The idea is sharing interesting things in chat as if it was a blog or
+news aggregator, with the similar goal of educating ourselves and
+getting to know each other better.
 
 The basic idea is that we people want to blog more, but that's a lot
 of work.  It's lower threshold to declare some chat channels to be
 "blog-like" and encourage even off-topic things to go there.
 
-For example, I propose the CodeRefinery chat declare these as blog
+For example, I propose the CodeRefinery chat declare these as news
 channels:
 
-- `#general`: Blog channel for anything remotely related to scientific
+- `#general`: News channel for anything remotely related to scientific
   computing.
-- `#random`: Blog channel for anything else.
+- `#random`: News channel for anything else.
 
-"Blog channel" does not mean that channel is for only blog posts, or
+"News channel" does not mean that channel is for only news posts, or
 for things that could be blog post.  It means "for things you might
 want to tell others about".
 
@@ -39,7 +39,7 @@ only to encourage new interaction.  You don't have to do what is here.*
 
 ## Basics
 
-- Blog channels are non-work channels, and you don't have to be
+- News channels are non-work channels, and you don't have to be
   subscribed.  Don't expect all your colleagues to be subscribed.  If
   you have an announcement for a team, make sure you mention it in a
   work channel, too.
@@ -53,13 +53,14 @@ only to encourage new interaction.  You don't have to do what is here.*
   - A question or thought you have (including something you might blog
     about later).
 - Put some human effort into describing it (see below).  Please no
-  bare or low-context links.
+  bare or low-context links.  Yes, people can read things themselves,
+  but there's too much.  Our networks helps filter summaries.
 - There's not a limit (yet) on the amount you can post, but in
   general, the more you post, the more human effort you should put
   into describing things.  People can independently subscribe to
   wherever you get material from if they want everything from there.
 - Follow-up discussion on any content is encouraged, but not required.
-  Don't get discouraged if no one reacts.  It just means your
+  Don't get discouraged if no one reacts.  It might mean your
   description is good enough.  Do react to interesting things to
   encourage more of that type of thing.
 
