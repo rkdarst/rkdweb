@@ -68,7 +68,9 @@ get something:
 This requires more thought in writing, but is a service for the
 reader.  I think we should strive more towards this {inote}`Does this
 post meet these criteria?  I usually try to, but I don't always
-manage.`.
+manage.`.  It's related to `Bottom-line Up Front communication
+<https://en.wikipedia.org/wiki/BLUF_(communication)>`__, from which I
+got some of these ideas.
 
 
 ## Basics
