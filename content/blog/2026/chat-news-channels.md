@@ -55,7 +55,8 @@ that's not a problem in our chats.`.  My main consideration is you
 need to click through to know the actual story.
 
 To me, anti-clickbait means putting the main message as early as
-possible so that one can stop reading early and still get it:
+possible so that one can stop reading as early as they want and still
+get something:
 
 * Read the first sentence, get a 1-sentence understanding of the
   topic.
@@ -66,7 +67,8 @@ possible so that one can stop reading early and still get it:
 
 This requires more thought in writing, but is a service for the
 reader.  I think we should strive more towards this {inote}`Does this
-post meet these criteria?  I usually try to, but it's not easy`.
+post meet these criteria?  I usually try to, but I don't always
+manage.`.
 
 
 ## Basics
