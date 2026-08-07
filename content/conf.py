@@ -19,6 +19,7 @@ extensions = [
     'ablog',
     'sphinx.ext.intersphinx',
     'myst_parser',
+    'sphinx_misc_rkdarst.inote',
 ]
 
 templates_path = ['_templates']
