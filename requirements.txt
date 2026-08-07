@@ -3,3 +3,4 @@ sphinx_rtd_theme
 sphinx_rtd_theme_ext_color_contrast
 myst-parser
 ablog
+https://github.com/rkdarst/sphinx-misc-rkdarst/archive/master.zip

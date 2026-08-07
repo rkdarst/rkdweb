@@ -7,17 +7,26 @@ category:
 
 # News channels in chat
 
-In the CodeRefinery chat, we've thought about how to build more
-interaction in our chat (even though, compared to some orgs, we think
-we have quite a bit.  Perhaps that's the power of Zulip).  One
-proposal is **"news channels"** which I will give my thoughts on here.
-The idea is sharing interesting things in chat as if it was a blog or
-news aggregator, with the similar goal of educating ourselves and
-getting to know each other better.
+I hope we had a low threshold for sharing anything in chat, as long as
+the sharer puts a bit of effort into a summary.  In the CodeRefinery
+chat, we've thought about how to build more interaction in our chat
+(even though, compared to some orgs, we think we have quite a bit.
+Perhaps that's the {doc}`power of Zulip
+</blog/2026/zulip-guide>`).  My proposal is **"news
+channels"**.  The goal is like a blog or news aggregator, with the
+similar goal of educating ourselves and getting to know each other
+better.
+
+I like seeing a wide variety of links, but time is limited.  Not
+everyone can read every link posted, so I hope that people put their
+human brain into a summary (suitable for the readers) that is
+educational even if read alone.  Not clickbait, and not "read the link
+for more".
 
 The basic idea is that we people want to blog more, but that's a lot
 of work.  It's lower threshold to declare some chat channels to be
 "blog-like" and encourage even off-topic things to go there.
+Hopefully it leads to more blogging, too.
 
 For example, I propose the CodeRefinery chat declare these as news
 channels:
@@ -37,7 +46,32 @@ should not be used to tell people they are doing something wrong, but
 only to encourage new interaction.  You don't have to do what is here.*
 
 
+## What is clickbait?
+
+Philosophy: Clickbait (according to wikipedia) "is designed to attract
+attention and to entice users to follow ("click") that link"
+{inote}`normal clickbait is often misleading or sensationalized, and
+that's not a problem in our chats.`.  My main consideration is you
+need to click through to know the actual story.
+
+To me, anti-clickbait means putting the main message as early as
+possible so that one can stop reading early and still get it:
+
+* Read the first sentence, get a 1-sentence understanding of the
+  topic.
+* Read the first paragraph, get a 1-paragraph understanding of the
+  topic.
+* Read the first section, get a 1-section understanding of the topic.
+* Apply this recursively at every level.
+
+This requires more thought in writing, but is a service for the
+reader.  I think we should strive more towards this {inote}`Does this
+post meet these criteria?  I usually try to, but it's not easy`.
+
+
 ## Basics
+
+This is my proposal:
 
 - News channels are non-work channels, and you don't have to be
   subscribed.  Don't expect all your colleagues to be subscribed.  If
@@ -67,7 +101,10 @@ only to encourage new interaction.  You don't have to do what is here.*
 You are especially encouraged to post anything new you create, no
 matter how small it is.  This is how we learn of each other's skills.
 
+
 ## How-to
+
+Further thoughts, adapt as is appropriate:
 
 - Create a new topic for each new thing.  Don't worry about making too
   many topics, but you can always reply with more stuff for relevant
@@ -99,13 +136,17 @@ matter how small it is.  This is how we learn of each other's skills.
     understand things.
 - Even if you wrote something elsewhere and you are linking to it,
   give a summary in the chat.
-- Does this seem like a lot of work?  Well, yeah, but it's the
-  trade-off to engagement.  In the age of generated content, we want
-  human effort.  **Look at it this way: thinking about, writing, and
-  reading these summaries is good general communication practice with
-  people outside your field.**
 
 A reminder: Do not use this blog post to tell people they are doing
 something wrong.  Don't think the barrier is too high.  Don't assume
 this post is the best practices.  We want you to do your best, and
 read what others do, and everyone to continually improve.
+
+
+## The benefits?
+
+Does this seem like a lot of work?  Well, yeah, but it's the trade-off
+to engagement.  In the age of generated content, we want human effort.
+**Look at it this way: thinking about, writing, and reading these
+summaries is good general communication practice with people outside
+your field.**
