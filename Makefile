@@ -6,7 +6,7 @@
 SPHINXOPTS    ?=
 SPHINXBUILD   ?= sphinx-build
 SOURCEDIR     = content
-BUILDDIR      = build
+BUILDDIR      = _build
 
 # Put it first so that "make" without argument is like "make help".
 help:
@@ -21,13 +21,13 @@ help:
 
 
 publish: clean dirhtml
-	echo .buildinfo*  > build/dirhtml/.gitignore
-	echo rkd.zgib.net > build/dirhtml/CNAME
-	echo              > build/dirhtml/.nojekyll
+	echo .buildinfo*  > _build/dirhtml/.gitignore
+	echo rkd.zgib.net > _build/dirhtml/CNAME
+	echo              > _build/dirhtml/.nojekyll
 	git init --bare tmp-rkdweb-gh-pages.git
 	git --git-dir=tmp-rkdweb-gh-pages.git/ remote add origin ghr:rkdweb || true
-	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ branch -D gh-pages || true
-	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ checkout --orphan  gh-pages
-	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ add .
-	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ commit -m "update, from $(git describe --always --dirty)"
-	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=build/dirhtml/ push -u -f origin gh-pages
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=_build/dirhtml/ branch -D gh-pages || true
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=_build/dirhtml/ checkout --orphan  gh-pages
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=_build/dirhtml/ add .
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=_build/dirhtml/ commit -m "update, from $(git describe --always --dirty)"
+	git --git-dir=tmp-rkdweb-gh-pages.git/ --work-tree=_build/dirhtml/ push -u -f origin gh-pages

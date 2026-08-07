@@ -29,13 +29,13 @@ jobs:
           make dirhtml
       - name: CNAME and .nojekyll
         run: |
-          echo              > build/dirhtml/.nojekyll
-          echo rkd.zgib.net > build/dirhtml/CNAME
+          echo              > _build/dirhtml/.nojekyll
+          echo rkd.zgib.net > _build/dirhtml/CNAME
       - uses: actions/upload-artifact@v7
         if: ${{ github.ref == format('refs/heads/{0}', env.DEFAULT_BRANCH) }}
         with:
           name: gh-pages-build
-          path: build/dirhtml/
+          path: _build/dirhtml/
 
 
   deploy:
