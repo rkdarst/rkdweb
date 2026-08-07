@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Zulipchat guide: managing too much information &#8212; Richard Darst</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/inote.css?v=54d43699" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster_overrides.css?v=4837fcfa" />
+    <script src="../../../_static/documentation_options.js?v=187304be"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="../../../_static/zeppelinbend-3b.ico"/>
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" /> 
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+   
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+             <section id="zulipchat-guide-managing-too-much-information">
+<h1>Zulipchat guide: managing too much information<a class="headerlink" href="#zulipchat-guide-managing-too-much-information" title="Link to this heading">¶</a></h1>
+<p>Zulip is a chat platform (open-source and self-hostable).  I think it
+is very good, but often confusing to newcomers.  This post explains
+how I see it and how I think others can manage all the information.
+This isn’t meant to be a Zulip basics guide.</p>
+<p>I can’t recommend Zulipchat enough if you want a proper online
+community.  I’m not paid to say this.</p>
+<section id="the-fundamental-contradiction-of-chats">
+<h2>The fundamental contradiction of chats<a class="headerlink" href="#the-fundamental-contradiction-of-chats" title="Link to this heading">¶</a></h2>
+<p>I think it’s important to start with why I believe people have a
+problem with Zulipchat.  It’s because it works.  People use it to
+talk, and it leads to thriving chat communities.  This leads to too
+much information.  It doesn’t lead to a large number of one-to-one or
+group direct messages, but functioning communities.</p>
+<p>On the other hand, it has good tools to filter things and let you
+focus on what you want.  It takes some getting used to, but it’s
+possible.</p>
+<p>So, don’t be afraid.  You are joining a community which has decided to
+be a community, and that community is probably here to help you with
+that.  The cost is that you need to manage your time, so read on.</p>
+</section>
+<section id="zulip-basics">
+<h2>Zulip basics<a class="headerlink" href="#zulip-basics" title="Link to this heading">¶</a></h2>
+<p>The main concepts are:</p>
+<ul class="simple">
+<li><p><strong>Channels</strong> (formerly known as “streams”) are the basic organization,
+like in other chat systems.</p></li>
+<li><p><strong>Topics</strong> are like email subjects of threads within a channel, which
+have no similar concept in other chat systems.  This is what lets
+someone get a summary of what is going on and manage the flow.  You
+can mention <code class="docutils literal notranslate"><span class="pre">&#64;topic</span></code> to get just those active in a topic.</p></li>
+<li><p><strong>Messages</strong> are as expected, but all messages have both a channel and
+topic.  (These days you can actually send a message without a topic
+and it appears as “<em>general chat</em>”, but I would recommend avoiding
+this as possible.</p></li>
+<li><p>Your view can be narrowed to certain channels, topics, or other
+search terms.  There are a wide variety of places to click to do
+this (from almost any view).  Click around and see how it works - it
+will save you lots of time.  If you click on a channel/topic name, it
+narrows to that channel/topic around that message.</p></li>
+<li><p>If you click on actual messages, it opens reply boxes in that topic.</p></li>
+</ul>
+<p>This has two major implications.  First, you have to think a little
+bit before you start to type.  This slows you down by a few seconds,
+but it’s not so hard and worth it to think “what am I talking about
+here?  Is there an existing thread to join?”  But don’t worry too
+much, a quick search is enough.</p>
+<p>Second, once you have things sorted, you can much more easily filter
+and find what’s important to you.  You can see more of past
+conversations.  If you see a new interesting message, you can click on
+it and see all the past history.  You can get notified for specific
+conversations and hide others.</p>
+<p>As a newcomer, you won’t know what all has happened before, so thus
+may start duplicate topics.  That’s OK!  In all the organizations I am
+part of, there are some people who act as “curators” and organize
+topics, combining or splitting them.  They may combine, split, or
+move yours.  This isn’t bad.  Just chat and let others deal with that.</p>
+</section>
+<section id="notification-levels">
+<h2>Notification levels<a class="headerlink" href="#notification-levels" title="Link to this heading">¶</a></h2>
+<p>There are three levels of following/notifications:</p>
+<ul class="simple">
+<li><p><strong>Following</strong> where you get notifications (sound/pop-up/email/etc.)</p></li>
+<li><p><strong>Default</strong></p></li>
+<li><p><strong>Muted</strong> where you don’t even see the messages by default, but if you
+get &#64;-mentioned then you do.  You can then click on the message and see
+the whole topic.</p></li>
+</ul>
+<p>In your personal settings, there are a variety of settings to make
+yourself auto-follow anything you interact with (send messages to) or
+get mentioned in.</p>
+<p>Also, <em>every one of these can operate per-channel or per-topic</em>.  Thus,
+you have lots of flexibility.  (Of course this leads to the paradox of
+choice, where more options decrease happiness).</p>
+</section>
+<section id="zulip-conventions">
+<h2>Zulip conventions<a class="headerlink" href="#zulip-conventions" title="Link to this heading">¶</a></h2>
+<p>My organizations tend to:</p>
+<ul class="simple">
+<li><p>Not &#64;-mention people as much as in other places (it can be done when
+you need to, but if you know someone actually follows the chat, they
+can usually find the relevant topics).  People set the auto-follow
+depending on their needs.</p></li>
+<li><p>Not quote-replying that often, unless it’s not very recent in the
+topic or you want to emphasize it.  People can always click the
+topic and see history, no matter when they see it.</p></li>
+<li><p>Have fewer channels and rely more on setting topics.</p></li>
+<li><p>Rely less on private messages.</p></li>
+<li><p>Do make a search for any past topics and re-post to them if it’s
+relevant.</p></li>
+<li><p>Do rearrange messages after they are sent, as topics diverge and
+converge.</p></li>
+<li><p>Make new topics frequently, but also split/join topics often when
+they drift.</p></li>
+<li><p>“Curators” who have been around a while often move/organize topics
+that other people start, with a low threshold (this doesn’t mean
+something went wrong, and it may connect you to older info).  But
+anyone is welcome to do this.</p></li>
+</ul>
+</section>
+<section id="strategy-if-you-follow-selectively">
+<h2>Strategy: if you follow selectively<a class="headerlink" href="#strategy-if-you-follow-selectively" title="Link to this heading">¶</a></h2>
+<p>If you are like most people and can’t follow everything, that’s OK.
+When you check chat:</p>
+<ul class="simple">
+<li><p>Check your “<strong>Inbox</strong>” view.  This shows everything new and unread (and
+you can limit it to where you have been mentioned/where you are
+following).</p></li>
+<li><p>Alternatively, check the “<strong>Recent topics</strong>” view.  This will show
+you every topic that has been active, sorted by most recent.  You
+can read the topics and see if there’s anything interesting.  When
+you click on a topic, you can scroll back to all the old history,
+not just the unread messages.</p></li>
+<li><p><em>If you want</em>, you can scroll the “Combined feed” that shows
+everything if you want.  This has all the messages mixed together,
+which will be hard to follow, but you might see something that
+catches your eye.  Click the topic name and you will narrow to that
+topic and see the whole thing.</p></li>
+<li><p>Then, and I can’t emphasize this enough, mark everything as read.
+It’s in the past, you won’t catch up.  If something is still
+relevant, it will re-appear in the recent topics and you can still see
+all the history.</p></li>
+</ul>
+<p>A variant of this is to go click on each channel separately on the
+sidebar, which makes its recent topics appear.  You can then either
+browse the channel in chronological order or click on the relevant
+topics to narrow to them.</p>
+<p>You can select “Inbox” or “Recent topics” as your default view.</p>
+<p>Even if you try to follow everything, when you come back from a
+vacation or similar, do this and “mark all as read”.</p>
+</section>
+<section id="strategy-if-you-follow-everything">
+<h2>Strategy: if you follow everything<a class="headerlink" href="#strategy-if-you-follow-everything" title="Link to this heading">¶</a></h2>
+<p>Some people want to try to follow everything.  In this case, set
+<strong>combined feed</strong> as your default home view (Personal settings &gt;
+Preferences) and you will see every message in chronological order
+(with all the topics interleaved).  This lets you quickly follow new
+things, but can easily become overwhelming.  When you see something
+that is interesting, you click on its topic and see the history of
+that topic.</p>
+<p>You might want to disable the auto-follow settings (in your personal
+settings).  Since you follow everything on your own time, you don’t
+need to</p>
+<p>In reality, I often combine these strategies.  I’m one of the topic
+curators, so I tend to follow everything.  Still, if I’m away from a
+few days it’s too much, so I click through each channel separately to
+catch up by-topic before going back to the combined feed.</p>
+</section>
+<section id="strategies-to-follow-what-s-important-to-you">
+<h2>Strategies to follow what’s important to you<a class="headerlink" href="#strategies-to-follow-what-s-important-to-you" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>For your most important channels, you can pin the to the top.</p></li>
+<li><p>“Follow” certain topics so that you get notified.  I do this for
+topics such as “lunch” (“where are we eating today?”)</p></li>
+<li><p>If you don’t look often, change your personal settings to
+automatically follow any topic you get &#64;-mentioned in or interact
+in.  Un-follow them if/when your input is no longer needed.</p></li>
+<li><p>Set up alert words (personal settings) which tag certain words as
+&#64;-mentions.</p></li>
+</ul>
+</section>
+<section id="strategies-to-ignore-what-is-not-important-to-you">
+<h2>Strategies to ignore what is not important to you<a class="headerlink" href="#strategies-to-ignore-what-is-not-important-to-you" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>You can be in a channel but have it muted, so you don’t see it by
+default, but you can be mentioned within in (and you can see it when
+you click on it).  If there’s a private channel, this is probably a
+better strategy than not being in it (since you can’t as easily
+re-join).  This also means it’s easy to occasionally click on it to
+see what’s going on, while not taking up mental space on a daily
+basis.</p></li>
+<li><p>Mute specific high-volume topics that are not relevant to you.  I do
+this for some high-volume automated alerts.</p></li>
+<li><p>Change the “followed messages count” to only include followed
+topics, DMs, and mentions” - so that indicator isn’t always taking
+your mental focus.</p></li>
+</ul>
+</section>
+<section id="emoji-reactions">
+<h2>Emoji reactions<a class="headerlink" href="#emoji-reactions" title="Link to this heading">¶</a></h2>
+<p>The organizations I am in often use Emoji reactions.  This works like
+other places, but there are some conventions I try to use (note these
+are something I think, not an official policy or anything):</p>
+<p>For expressing agreement/disagreement:</p>
+<ul class="simple">
+<li><p>🔼 (<code class="docutils literal notranslate"><span class="pre">:upvote:</span></code>): Reacting to a concrete suggestion, it means “in no
+uncertain terms I approve of you taking that action”.  I use this,
+and the following four, since “no one is answering, what should I
+do?” is a big problem with decisions via chat.</p></li>
+<li><p>⏫ (<code class="docutils literal notranslate"><span class="pre">:double_up:</span></code>): I agree with you and am willing to do work to
+help make it possible.</p></li>
+<li><p>↕️ (<code class="docutils literal notranslate"><span class="pre">:up_down:</span></code>): I’m neutral</p></li>
+<li><p>🔽 (<code class="docutils literal notranslate"><span class="pre">:downvote:</span></code>): I don’t support this action</p></li>
+<li><p>⏬ (<code class="docutils literal notranslate"><span class="pre">:double_down:</span></code>): I don’t support this action and am willing to
+do work for some other sort of solution.</p></li>
+<li><p>👍 (<code class="docutils literal notranslate"><span class="pre">:+1:</span></code>): General “I agree with the sentiment” message, but
+perhaps less specific than the upvote arrows.</p></li>
+<li><p>✔️ (<code class="docutils literal notranslate"><span class="pre">:check_mark:</span></code>) and similar: I have done whatever was in this
+message.</p></li>
+<li><p>🧾 (<code class="docutils literal notranslate"><span class="pre">:receipt:</span></code>): I’ve read the message and acknowledge receipt but
+no other comment yet.</p></li>
+<li><p>🛠️ (<code class="docutils literal notranslate"><span class="pre">:working_on_it:</span></code>): I’m working on this now.</p></li>
+<li><p>Anything else means some general sentiment, usually positive, but no
+specific meaning to me.  You can figure out some sentiments by what
+it is and/or how (in)frequently it’s used.</p></li>
+</ul>
+<p>For the voting things, it’s something I once read was used in some
+other open source project, but I can’t find any trace of it.  The
+system was based on a {-2, -1, 0, +1, +2} to be able to express not
+just “good idea” but “who has time/willingness to do something”.  A
+human needs to do the final interpretation of the results.  Maybe I
+should write about this elsewhere.</p>
+</section>
+<section id="summary">
+<h2>Summary<a class="headerlink" href="#summary" title="Link to this heading">¶</a></h2>
+<p>When you use Zulip chat, you get a ton of information, but you have
+ways to filter it if you need.  I think this also gives good
+possibilities for passively following along, which is also helps with
+onboarding and learning things.</p>
+</section>
+<section id="see-also">
+<h2>See also<a class="headerlink" href="#see-also" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://zulip.com/help/getting-started-with-zulip">Zulip official docs, getting started guide</a></p></li>
+<li><p><a class="reference external" href="https://doi.org/10.5281/zenodo.18624144">Zulip quick start guide</a>
+by people I know.</p></li>
+<li><p><a class="reference external" href="https://blog.zulip.com/2025/01/27/year-in-review-2024/">Zulip 2024 in
+review</a> that
+gives some underused features.e</p></li>
+</ul>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+      Previous:
+    
+    <a href="../digital-sovereignty-actions/">
+      
+      <span>My digital sovereignty actions</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+      Next: 
+    <a href="../debian-with-unionfs-root/">
+      <span>Debian with unionfs root</span>
+      
+    </a>
+    
+  </span>
+</div>
+  
+</div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../">
+              <img class="logo" src="../../../_static/zeppelinbend-3b.jpg" alt="Logo of Richard Darst"/>
+            </a></p>
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <span>29 June 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+       Author: 
+    </span>
+     
+    <a href="../../author/richard-darst/">Richard Darst</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+       Category: 
+    </span>
+     
+    <a href="../../category/null/">null</a>
+      
+  </li>
+    
+</div>
+  </ul>
+</div>
+
+<h3><a href="../../../">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../outputs/">Outputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../">Blog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/rkdarst/">Github</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Affiliations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://scicomp.aalto.fi">Aalto Scientific Computing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://nordic-rse.org">Nordic-RSE</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.wildeagles.fi/">Wild Eagles</a></li>
+</ul>
+
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="../../">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="../chat-news-channels/">
+        31 July - News channels in chat
+      </a>
+    </li>
+    
+    <li>
+      <a href="../wiki-vs-code-rules/">
+        20 July - “Code rules” vs “wiki rules” for project contributions
+      </a>
+    </li>
+    
+    <li>
+      <a href="../debian-with-unionfs-root/">
+        13 July - Debian with unionfs root
+      </a>
+    </li>
+    
+    <li>
+      <a href="../digital-sovereignty-actions/">
+        17 June - My digital sovereignty actions
+      </a>
+    </li>
+    
+    <li>
+      <a href="../vision-of-nordic-scientific-computing/">
+        16 May - A vision of Nordic Scientific Computing
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2026, Richard Darst.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.1.0</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../../../_sources/blog/2026/zulip-guide.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

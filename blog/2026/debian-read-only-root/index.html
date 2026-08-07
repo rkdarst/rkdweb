@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+
+<html lang="en" data-content_root="../../../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Notes on Debian with a read-only root &#8212; Richard Darst</title>
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster.css?v=27fed22d" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/sphinx_rtd_theme_ext_color_contrast.css?v=8e8ea19f" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/inote.css?v=54d43699" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/alabaster_overrides.css?v=4837fcfa" />
+    <script src="../../../_static/documentation_options.js?v=187304be"></script>
+    <script src="../../../_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="../../../_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <link rel="icon" href="../../../_static/zeppelinbend-3b.ico"/>
+    <link rel="index" title="Index" href="../../../genindex/" />
+    <link rel="search" title="Search" href="../../../search/" /> 
+   
+  <link rel="stylesheet" href="../../../_static/custom.css" type="text/css" />
+  
+
+  
+  
+   
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+             <section id="notes-on-debian-with-a-read-only-root">
+<h1>Notes on Debian with a read-only root<a class="headerlink" href="#notes-on-debian-with-a-read-only-root" title="Link to this heading">¶</a></h1>
+<p>I run several Raspberry Pis for home servers.  They currently use SD
+cards for their root filesystems (the actual data is stored either on
+USB disks on NVMe disks), and I wanted a way to preserve the life of
+the SD cards.  Can I make them more like an appliance, that just works
+and only rarely gets updates, rather than a normal server that’s
+always writing to disk.</p>
+<p>This was tested with Debian 13.4 but probably works even for much
+older.</p>
+<section id="the-basics">
+<h2>The basics<a class="headerlink" href="#the-basics" title="Link to this heading">¶</a></h2>
+<p>Basically, add <code class="docutils literal notranslate"><span class="pre">ro</span></code> to the mount options for <code class="docutils literal notranslate"><span class="pre">/</span></code> in <code class="docutils literal notranslate"><span class="pre">/etc/fstab</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PARTUUID</span><span class="o">=</span><span class="mi">7</span><span class="n">ad6db44</span><span class="o">-</span><span class="mi">02</span>  <span class="o">/</span>   <span class="n">ext4</span>    <span class="n">defaults</span><span class="p">,</span><span class="n">discard</span><span class="p">,</span><span class="n">noatime</span><span class="p">,</span><span class="n">ro</span>    <span class="mi">0</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>This worked enough for the computer to boot and me to ssh to it, and
+my feeling is it’s hard to get locked out enough that you can’t ssh to it.</p>
+<p>When you need to go to read-write mode, you can <code class="docutils literal notranslate"><span class="pre">mount</span> <span class="pre">-o</span> <span class="pre">remount,rw</span>
+<span class="pre">/</span></code>, do what you need (package upgrades, etc.), and then reboot (or
+you can try to remount to ro, but it might not work if some files are
+open rw).</p>
+</section>
+<section id="stuff-that-automatically-works">
+<h2>Stuff that automatically works<a class="headerlink" href="#stuff-that-automatically-works" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>The following are automatically mounted as tmpfs by default (among
+other things)
+* <code class="docutils literal notranslate"><span class="pre">/tmp</span></code>
+* <code class="docutils literal notranslate"><span class="pre">/run</span></code>
+* <code class="docutils literal notranslate"><span class="pre">/run/lock</span></code>
+* <code class="docutils literal notranslate"><span class="pre">/var/run</span></code>
+* <code class="docutils literal notranslate"><span class="pre">/dev/shm</span></code>
+* <code class="docutils literal notranslate"><span class="pre">/run/user/0</span></code> (per-user tmp)</p></li>
+</ul>
+<p>What is also already set up on a Debian system:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">/etc/mtab</span></code> (a symlink to <code class="docutils literal notranslate"><span class="pre">/proc/self/mounts</span></code>)</p></li>
+</ul>
+</div></blockquote>
+<p>Systemd / journalctl seem to track recent logs in memory, so it just
+works as expected (you get logs from the last boot, plus logs that
+were written to disk before the logs dir weth read-only).</p>
+</section>
+<section id="things-to-do">
+<h2>Things to do<a class="headerlink" href="#things-to-do" title="Link to this heading">¶</a></h2>
+<p>Install <code class="docutils literal notranslate"><span class="pre">resolvconf</span></code> and it will move <code class="docutils literal notranslate"><span class="pre">/etc/resolv.conf</span></code> to
+<code class="docutils literal notranslate"><span class="pre">/run/resolvconf/resolv.conf</span></code>.  For certain network tools you need
+to configure them, but it seems that for all the default stuff, it
+just works.</p>
+</section>
+<section id="samba">
+<h2>Samba<a class="headerlink" href="#samba" title="Link to this heading">¶</a></h2>
+<p>A samba server will fail if it can’t open certain directories
+read-write.  For some, you can mount a tmpfs there via
+<code class="docutils literal notranslate"><span class="pre">/etc/fstab</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">samba</span>         <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">2</span>
+<span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">cache</span><span class="o">/</span><span class="n">samba</span>       <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">2</span>
+<span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">samba</span>         <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">2</span>
+<span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">samba</span><span class="o">/</span><span class="n">private</span> <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">10</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">3</span>
+</pre></div>
+</div>
+<p>I don’t know if mounting /var/lib/samba will cause problems long-term,
+but in my case, where there is no client state needed, it seems to
+work.</p>
+</section>
+<section id="nginx">
+<h2>Nginx<a class="headerlink" href="#nginx" title="Link to this heading">¶</a></h2>
+<p>We need to make it able to open logs.  In <code class="docutils literal notranslate"><span class="pre">/etc/fstab</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">log</span><span class="o">/</span><span class="n">nginx</span>          <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>This would need checking to see if we run out of space for the logs,
+but hopefully logrotate works frequently enough.</p>
+</section>
+<section id="docker">
+<h2>Docker<a class="headerlink" href="#docker" title="Link to this heading">¶</a></h2>
+<p>I have already moved <code class="docutils literal notranslate"><span class="pre">/var/lib/docker/</span></code> away from the SD card to a
+NVMe disk on the system.  Docker didn’t need anything else, but
+containerd needed something mounted to be able to start.  In
+<code class="docutils literal notranslate"><span class="pre">/etc/fstab</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">tmpfs</span>    <span class="o">/</span><span class="n">var</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">containerd</span><span class="o">/</span>    <span class="n">tmpfs</span>   <span class="n">defaults</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="mi">50</span><span class="n">M</span>   <span class="mi">0</span> <span class="mi">2</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+<div class="section ablog__blog_comments">
+     
+<div class="section ablog__prev-next">
+  <span class="ablog__prev">
+      Previous:
+    
+    <a href="../it-department-manifesto/">
+      
+      <span>Manifesto on university IT departments</span>
+    </a>
+    
+  </span>
+  <span class="ablog__spacer">&nbsp;</span>
+  <span class="ablog__next">
+      Next: 
+    <a href="../book-review-first-break-all-the-rules/">
+      <span>Book review: First, break all the rules</span>
+      
+    </a>
+    
+  </span>
+</div>
+  
+</div>
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../../../">
+              <img class="logo" src="../../../_static/zeppelinbend-3b.jpg" alt="Logo of Richard Darst"/>
+            </a></p>
+<div class="ablog-sidebar-item ablog__postcard">
+   
+  <h2>
+     
+    <span>12 April 2026</span>
+    
+  </h2>
+  <ul>
+    <div class="ablog-sidebar-item ablog__postcard2">
+   
+  <li id="ablog-sidebar-item author ablog__author">
+    <span>
+       Author: 
+    </span>
+     
+    <a href="../../author/richard-darst/">Richard Darst</a>
+      
+  </li>
+     
+  <li id="ablog-sidebar-item category ablog__category">
+    <span>
+       Category: 
+    </span>
+     
+    <a href="../../category/linux/">linux</a>
+      
+  </li>
+    
+</div>
+  </ul>
+</div>
+
+<h3><a href="../../../">Table of Contents</a></h3>
+<p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../outputs/">Outputs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../">Blog</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Links</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://github.com/rkdarst/">Github</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Affiliations</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference external" href="https://scicomp.aalto.fi">Aalto Scientific Computing</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://coderefinery.org">CodeRefinery</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://nordic-rse.org">Nordic-RSE</a></li>
+<li class="toctree-l1"><a class="reference external" href="https://www.wildeagles.fi/">Wild Eagles</a></li>
+</ul>
+
+<div class="ablog-sidebar-item ablog__recentposts">
+  <h3>
+    <a href="../../">Recent Posts</a>
+  </h3>
+  <ul>
+     
+    <li>
+      <a href="../chat-news-channels/">
+        31 July - News channels in chat
+      </a>
+    </li>
+    
+    <li>
+      <a href="../wiki-vs-code-rules/">
+        20 July - “Code rules” vs “wiki rules” for project contributions
+      </a>
+    </li>
+    
+    <li>
+      <a href="../debian-with-unionfs-root/">
+        13 July - Debian with unionfs root
+      </a>
+    </li>
+    
+    <li>
+      <a href="../zulip-guide/">
+        29 June - Zulipchat guide: managing too much information
+      </a>
+    </li>
+    
+    <li>
+      <a href="../digital-sovereignty-actions/">
+        17 June - My digital sovereignty actions
+      </a>
+    </li>
+    
+  </ul>
+</div>
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2026, Richard Darst.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.1.0</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="../../../_sources/blog/2026/debian-read-only-root.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
