@@ -5,7 +5,7 @@ author: Richard Darst
 category:
 ---
 
-# "Code rules" vs "wiki rules" for project contributions
+# "Code" vs "wiki" (vs "book") rules for project contributions
 
 I have sometimes said the phrases "wiki rules". or "cade rules" about
 contributing to a project.  What does this mean?  Roughly, "code
@@ -83,6 +83,25 @@ Examples of this include:
   just add things to the best of your ability and it will be improved
   later.  I can't currently find the page, I presume because there's
   enough maturity that stability is more important now.
+
+
+## New one: book rules
+
+Added 2026-09-14: There is one more possibility, "book rules", where
+there is an author who is taking overall editorial control, and there
+are usually not direct changes by others.  There may be suggestions,
+by others, but usually one person listens to all the suggestions,
+decides the direction, and chooses the final wording.  Any review may
+end up essentially re-writing it to get the exact phrasing the main
+author wants.
+
+In this, contributions are of the form of ideas and suggestions
+without exact wording being provided.
+
+Examples of this might include:
+
+- Opinion pieces such as [my notes for academic
+  supervisors](https://rkdarst.github.io/thoughts-on-academic-supervising/).
 
 
 ## Summary
