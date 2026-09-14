@@ -42,11 +42,13 @@ Basics
 Posts
 -----
 
+(newest at top, see also the :doc:`blog index <blog/index>`)
+
 .. postlist::
    :list-style: circle
    :category: Manual
-   :format: {title}
-   :sort:
+   :date: %Y %B %d
+   :format: {title} ({date})
 
 
 About
