@@ -11,7 +11,7 @@ I've been interested in why organizations work (or seem to not work,
 despite everyone in them being good people).  Another book cited the
 book "The Unaccountability machine"
 ([wikipedia](https://en.wikipedia.org/wiki/The_Unaccountability_Machine),
-[helmet
+[HelMet
 libraries](https://helmet.finna.fi/Record/helmet.2605064?sid=5513401888))
 as being related to this topic, so I checked it out.  In the end, the
 book did provide some thoughts on this, mainly through the lens of
@@ -38,8 +38,8 @@ of questions I wanted to answer.
 
 There are several main lessons I got from the book:
 
-* The number of states a system can be in vs the amount possibly
-  gradations of control input.  This is known as
+* **The number of states a system can be in vs the amount possibly
+  gradations of control input.**  This is known as
   "[variety](https://en.wikipedia.org/wiki/Variety_(cybernetics))".
   An example from my university:
 
@@ -60,21 +60,22 @@ There are several main lessons I got from the book:
   and once I realized this, I started seeing almost every
   dysfunctional thing of our university being caused by its violation.
 
-* Cyberneticists have broken down organizations into five systems
-  needed for their control ([Viable system
-  model](https://en.wikipedia.org/wiki/Viable_system_model)) (see
-  chapter 5's summary: operations, regulation, optimization or
-  integration, intelligence, and philosophy or identity).  My own team
-  is too small to have these as defined roles, but thinking of them
-  helps me realize some things we need to make sure get done.
+* **Cyberneticists have broken down organizations into five systems
+  needed for their control** ([Viable system
+  model](https://en.wikipedia.org/wiki/Viable_system_model))
+  (**operations, regulation, optimization or integration,
+  intelligence, and philosophy or identity**, see more in Chapter 5's
+  summary below).  My own team is too small to have these as defined
+  roles, but thinking of them helps me realize some things we need to
+  make sure get done.
 
-* Any complex organization isn't one mind but many different parts
-  (people) communicating in a complex network.  This can easily allow
-  decisions to be made and propagated elsewhere in a way that doesn't
-  quite make sense, with little feedback or accountability to the
-  place the decisions were made.  This makes the accountability sinks
-  (which was apparently defined here, though I would have thought it
-  was older).
+* **Any complex organization isn't one mind, or many individuals, but
+  many different parts (people) communicating in a complex network.**
+  This can easily allow decisions to be made and propagated elsewhere
+  in a way that doesn't quite make sense, with little feedback or
+  accountability to the place the decisions were made.  This makes the
+  accountability sinks (which was apparently defined here, though I
+  would have thought it was older).
 
   A complex network of nodes sending signals to each other, sometimes
   having a result that is undesired?  Sounds like "artificial
@@ -103,7 +104,7 @@ limited variety that reaches higher levels for the systematic decision
 making.
 
 
-## Chapter-by-chapter summary
+## Chapter-by-chapter analysis
 
 Below is a summary of each chapter.  I state what the book says (with
 some of my opinions or take-away messages mixed in), but I am not
@@ -234,9 +235,11 @@ despise the overall organization.
 
 **This part of organizations being a computing network really made
 sense to me and started to build my understanding of why it is so hard
-to change broken policies.  We should definitely start thinking of
-organizations as their connections, not only as their individuals.  It
-doesn't give a solution yet, though.**
+to change broken policies (and certainly matches with my "most people
+I know are well-intentioned and good at their jobs").  When we need
+something to change, we can't just blame individuals.  We should
+definitely start thinking of organizations as their connections, not
+only as their individuals.  It doesn't give a solution yet, though.**
 
 
 ## Intermission: Computing ponds and rabbit hole
