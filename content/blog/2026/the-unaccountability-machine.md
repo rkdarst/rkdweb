@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-09-13
 author: Richard Darst
-category: books
+category: book-review
 ---
 
 # Book review: The Unaccountability Machine

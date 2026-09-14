@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-07-20
 author: Richard Darst
-category:
+category: opinion
 ---
 
 # "Code" vs "wiki" (vs "book") rules for project contributions

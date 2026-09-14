@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-06-17
 author: Richard Darst
-category:
+category: linux
 ---
 
 # My digital sovereignty actions

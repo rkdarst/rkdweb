@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-06-29
 author: Richard Darst
-category:
+category: opinion
 ---
 
 # Zulipchat guide: managing too much information

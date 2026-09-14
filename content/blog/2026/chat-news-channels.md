@@ -2,7 +2,7 @@
 blogpost: true
 date: 2026-07-31
 author: Richard Darst
-category:
+category: opinion
 ---
 
 # News channels in chat
