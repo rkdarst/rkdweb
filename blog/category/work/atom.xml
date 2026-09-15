@@ -1,0 +1,567 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://rkd.zgib.net/</id>
+  <title>Blog - Posts in work</title>
+  <updated>2026-09-15T20:10:44.537887+00:00</updated>
+  <link href="https://rkd.zgib.net/"/>
+  <link href="https://rkd.zgib.net/blog/category/work/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/vision-of-nordic-scientific-computing/</id>
+    <title>A vision of Nordic Scientific Computing</title>
+    <updated>2026-05-16T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="a-vision-of-nordic-scientific-computing"&gt;
+
+&lt;p&gt;I was asked what is my vision for Nordic collaboration in scientific
+computing support.  This is something I have been thinking about for
+years, so I thought I would write it so that everyone can see.  In
+short, there are close collaborations, but we need some down-to-earth
+events to bring it together at the hands-on user-support level.&lt;/p&gt;
+&lt;section id="what-are-we-aiming-for"&gt;
+&lt;h2&gt;What are we aiming for?&lt;/h2&gt;
+&lt;p&gt;Research is important for society, and thus computing and research is
+important.  Often times, academics get all the attention, but us
+backend people (who I broadly call “research engineers”) are quite
+important too.  Research infrastructure support is important for
+research, but often doesn’t get that much attention.  It is valuable
+skill that needs practice, and isn’t taught in “school”.  User support
+is equally important, and even less taught in school.  Both need
+practice and a community, just like academics need to do their job.&lt;/p&gt;
+&lt;p&gt;My particular interest is scientific computing - broadly defined to
+include data, HPC, coding, and so on.  These lessons also apply to
+other research engineer type fields, and we can use the lessons there,
+too.&lt;/p&gt;
+&lt;p&gt;See also: &lt;a class="reference external" href="https://docs.google.com/presentation/d/1lF-2QtVa6obI_ceSYJ8wq0PhaiQVCf2Jmb_KUo6H-rQ/edit?slide=id"&gt;Architects vs engineers (in computing)&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="my-idea"&gt;
+&lt;h2&gt;My idea&lt;/h2&gt;
+&lt;p&gt;I think that &lt;a class="reference external" href="https://neic.no/"&gt;NeIC&lt;/a&gt; is a good model and about the
+right size.  There is enough critical mass, and distances and cultures
+are close.  NeIC has good collaboration for its projects, and the idea
+should go beyond the accepted projects.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="teaching-collaboration"&gt;
+&lt;h2&gt;Teaching collaboration&lt;/h2&gt;
+&lt;p&gt;CodeRefinery has a great teaching collaboration going.  I think this
+should continue and be enhanced.  Some of the benefits are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;It is the level-1 RSE training.  Most of the RSEs I have hired have
+attended CodeRefinery and for some of them it inspired their career
+choice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Teaching is a concrete activity that we can do together.
+&lt;strong&gt;CodeRefinery team-teaching provides high amounts of interaction
+between instructors, so that they can learn from each other, too.&lt;/strong&gt;
+Open materials suitable for reference later on are also a valuable output.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Team teaching (including helpers, notes Q&amp;amp;A, and local breakout
+rooms) for advanced topics provides a way to spread the knowledge
+and promote staff development.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition-teaching-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Teaching actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Expanded in-person breakout rooms for CodeRefinery courses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This turns into more advanced (beyond CodeRefinery level) joint
+courses, which serve to save time teaching + share knowledge across
+countries.  Teaching (even with a limited audience) serves as a way
+to connect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="conferences-and-meet-ups"&gt;
+&lt;h2&gt;Conferences and meet-ups&lt;/h2&gt;
+&lt;p&gt;I want to get back the magic of my first NeIC conference (2017), which
+I felt was very much focus on hands-on mechanics of computing.  Part of
+this is remembering the past more fondly than the present, but I think
+there was something there.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I want conferences and meet-ups that are not top-down (manager or
+funding focused) but bottom up (what are our actual problems?  What
+isn’t known?).  &lt;strong&gt;Also present things which are problems or
+in-progress, not nice-looking solutions.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I want a special focus on usability and users, not a race for the
+biggest or coolest systems.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Basically, I want more things like the &lt;a class="reference external" href="https://aaltoscicomp.github.io/NoBSC/"&gt;Nordic Basic Scientific
+Computing&lt;/a&gt; meetup I helped
+organize.  I can do this by helping NeIC conferences, or I can
+continue NoBSC myself.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The key points of NoBSC were: present problems and in-progress
+work, not just completed solutions.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition-meet-up-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Meet-up actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I will continue to organize NoBSC in 2027.  I plan for 2027 to still
+be focused on Finland and 2028 to focus on Nordic expansion, but if
+there is interest the expansion can already happen in 2028.  (In all
+cases others are always invited, just not with an explicit
+advertising focus)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I would happy to drop that and instead focus on NeIC conferences and
+meetups to bring my ideas there, instead.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="joint-scicomp-support"&gt;
+&lt;h2&gt;Joint SciComp support&lt;/h2&gt;
+&lt;p&gt;It’s hard to build joint support structures, since it’s hard to do
+free work for other organizations.  It’s hard to fully transfer a
+support case to someone else.  However, it is possible to ask for and
+give advice freely.&lt;/p&gt;
+&lt;p&gt;The two points above (teaching and meetups) promote a network that
+lets us know who to refer to.  This is like the NeIC model, but
+broader, not just those employed in a NeIC project.&lt;/p&gt;
+&lt;div class="admonition-support-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Support actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I would focus on the two points above.  It makes a network, and
+after there is a network where we can ask each other for help.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As part of the teaching + meetups, I would have a focus on usability
+and user support.  This will help with internal support. (I have to
+do user support training when we hire new people, and would be happy
+to share this.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/vision-of-nordic-scientific-computing/"/>
+    <summary>I was asked what is my vision for Nordic collaboration in scientific
+computing support.  This is something I have been thinking about for
+years, so I thought I would write it so that everyone can see.  In
+short, there are close collaborations, but we need some down-to-earth
+events to bring it together at the hands-on user-support level.</summary>
+    <published>2026-05-16T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/hopes-for-new-it-compliance/</id>
+    <title>Hopes for new IT compliance</title>
+    <updated>2026-05-11T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="hopes-for-new-it-compliance"&gt;
+
+&lt;p&gt;I recently saw that due to “organizational change”, our small-scale
+development IT compliance process is changing.  As usual for these
+matters at my organization, security by obscurity is the rule (even
+when it’s not security related), so I won’t go into the details.  But
+I do have thoughts, and writing lets me give suggestions.&lt;/p&gt;
+&lt;p&gt;Not all details are known yet, so this shouldn’t be seen on commentary
+of any decisions, but hope of what can come next in the best possible
+case.&lt;/p&gt;
+&lt;section id="what-is-compliance"&gt;
+&lt;h2&gt;What is compliance?&lt;/h2&gt;
+&lt;p&gt;Let’s not be overly-complicated here.  I don’t aim to go in-depth
+here, but there are various laws that you have to comply with when you
+do IT systems (let’s focus on personal data management here: privacy
+notices, legal use of the data, etc).  An organization needs to ensure
+that anything its employees make is legal, so they set up some process
+for that.&lt;/p&gt;
+&lt;p&gt;Ideally, the process is as minimal and simple as possible.  In some
+cases… it becomes much longer and harder than the original laws that
+were to be satisfied.  There become many more friction points and
+bottlenecks, which isn’t that great for agility, and in fact can
+paralyze the whole organization.  Clever organizations would make sure
+that the “compliance process” adjusts to the need of each thing that
+needs to be complied with.&lt;/p&gt;
+&lt;p&gt;It’s my general thought that ours doesn’t do this.  I don’t want to go
+into why: if you know, you know.  If you don’t know, maybe the
+following won’t be that interesting to you.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="what-happened"&gt;
+&lt;h2&gt;What happened&lt;/h2&gt;
+&lt;p&gt;Roughly, there seems like there will be less central review of
+compliance forms and people/units need to take more responsibility
+themselves.  This is likely only the case for small-scale development
+(as in research and services which do not have an impact on other
+services).  I don’t know for sure, but I presume large scale
+procurement and development is staying the same.&lt;/p&gt;
+&lt;p&gt;This will be unfortunate if there are still very specifically defined
+requirements how to be compliant (stricter than the law says) - the
+narrow definitions for a diverse organization are the very origin of
+the problems we have had.  But there is potential.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="what-i-hope-happens"&gt;
+&lt;h2&gt;What I hope happens&lt;/h2&gt;
+&lt;p&gt;Some of this can happen because of the upstream changes.  Some could
+have happened anyway, but hopefully we have a good excuse to work
+together to implement them.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Delegation to units and adjustment to their local needs.&lt;/strong&gt;  There are
+very different needs from a unit which is mostly procuring outside
+services and one which is mostly developing research methods only on
+local infrastructure (before these were treated identically).  Unit
+heads will now hopefully be able to adjust processes to suit the
+actual needs, tempo, and risks of their work.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better separation of goals and procedures.&lt;/strong&gt;  Our legal teams will
+hopefully be able to specify what the necessary requirements to meet
+legislative requirements, rather than hide the requirements behind
+some process which is not transparent to anyone.  This will help us to
+satisfy the actual needs and be able to communicate about with each
+other better about how to do that.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better interactions with legal services.&lt;/strong&gt;  Instead of interactions with
+legal services being focused on filling some forms (and much friction
+caused by the difference between procedures and reality), legal
+services will be available for more interesting questions.  I envision
+a future where we can proactively approach legal services with
+questions such as “Our goal is X, but we are uncertain how it
+interacts with the law, can you help us think through this?”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More local knowledge.&lt;/strong&gt;  Instead of all compliance knowledge being
+centralized in a few people, units will have to skill up.  This way be
+seen as a bad thing, but it’s better than not having skills and also
+not being able to do anything because it takes too long to get
+answers.  For basic things, the difficulties are not too much (and I
+would point out that for research purposes, all things are already
+documented and, in practice, delegated to the end researchers).  Legal
+staff will have time to help with advanced cases, and local staff will
+be better prepared to work with them.  Instead of a hub and spoke
+model where the only interaction is with a central team, we can talk
+with and learn from each other.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More sharing.&lt;/strong&gt;  I hope that, with more local responsibility, we will
+have more local sharing of our documents and practices.  Right now, it
+is too centralized, and there is very little sharing, so everyone is
+trying to figure out things themselves.  (It’s almost treated like a
+quiz, instead of collective challenge.)  This sharing requires some
+work from us, but will lead to great improvements in the long term.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More time where it is needed.&lt;/strong&gt;  For projects with interesting legal
+questions, such as third-party data transfers, I hope our legal
+services will have more time.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better possibilities for security reviews.&lt;/strong&gt;  Right now, compliance is
+often called security, but actually security is a small aspect, one
+which can not be reached without going through many other steps which
+are not always relevant.  I hope that our security teams can produce
+better checklists (usable by our local teams independently) to be
+considered during development processes and will be there for real
+security advice for more projects than they were previously.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Standard operating procedures.&lt;/strong&gt;  As of now, standard operating
+procedures have not been allowed - everything needs separate review.
+With this delegation, there is much more possibility for streamlining
+the normal cases and focusing on the complex ones.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Don’t replicate research compliance.&lt;/strong&gt;  There is a whole other
+well-working process for managing personal data in research.  In the
+past, this has been disconnected from the one for IT systems (so
+researchers have to figure out how to do both), even though it has the
+same goal and most of the same steps.  I hope that research projects
+can use only that process.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More compliance.&lt;/strong&gt;  This may seem ironic, but as units determine their
+local procedures and checklists, they will be more inclined to use
+them.  Lower cost means higher uptake.  Less projects will fall
+through the cracks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;More data sovereignty.&lt;/strong&gt;  Since we can do small-scale development
+faster, we will be less reliant on purchased services from large US
+tech companies.  We can adjust progresses to make this possible.&lt;/p&gt;
+&lt;p&gt;I don’t know if these will happen or not, but I hope we can work
+towards them.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/hopes-for-new-it-compliance/"/>
+    <summary>I recently saw that due to “organizational change”, our small-scale
+development IT compliance process is changing.  As usual for these
+matters at my organization, security by obscurity is the rule (even
+when it’s not security related), so I won’t go into the details.  But
+I do have thoughts, and writing lets me give suggestions.</summary>
+    <published>2026-05-11T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/the-platform-compliance-pitfall/</id>
+    <title>The platform compliance pitfall</title>
+    <updated>2026-05-09T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="the-platform-compliance-pitfall"&gt;
+
+&lt;p&gt;Roads don’t have to accept responsibility of who drives on them.
+There are some standards for being safe, though.  Imagine how much all
+construction would get slowed down if it gets bogged down in
+administartive work looking in detail about who goes over the road?&lt;/p&gt;
+&lt;p&gt;Even if, like me, you don’t want the world overflowing with cars,
+hopefully you agree that the best way to do that isn’t to excessively
+increase the costs of roads.&lt;/p&gt;
+&lt;section id="the-point"&gt;
+&lt;h2&gt;The point&lt;/h2&gt;
+&lt;p&gt;In my work, we maintain various learning platforms.  This is what one
+of their privacy notices could drop like:&lt;/p&gt;
+&lt;div class="admonition-privacy-notice-for-student-data admonition"&gt;
+&lt;p class="admonition-title"&gt;Privacy notice for student data&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Data contains: whatever you upload&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data source: you, when you upload&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data usage: as you choose to analyze it&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data removal: when you delete it&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To update or correct data: correct it yourself&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;Or this, for the assignments submitted via the platform&lt;/p&gt;
+&lt;div class="admonition-privacy-notice-for-student-data admonition"&gt;
+&lt;p class="admonition-title"&gt;Privacy notice for student data&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Data contains: whatever your teacher requests you submit (in
+accordince with privacy notice for teaching)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data source: you (in accordince with privacy notice for teaching)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data usage: as decided by your teacher (in accordince with privacy notice for teaching)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Data removal: when your teacher deletes it or requests we remove
+their course page (in accordince with privacy notice for teaching)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;To update or correct data: contact your teacher (in accordince with privacy notice for teaching)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;p&gt;As you can see from this, the we and the platform itself isn’t
+deciding how the data is used.  Students can use in for their own
+work, in which case students decide themselves.  For the submitted
+assignments, teachers decide how date is used (hopefully in compliance
+with the privacy notice for studies!).&lt;/p&gt;
+&lt;p&gt;The problem comes when we are required (by others in the university
+compliance teams) to make a privacy notice just for this platform
+covering everything that happens on it.  In legal terms, we are forced
+to act like the controller of the data on the platform.  For the data
+submitted as assignments, this is somewhat reasonable, since there is
+only one legal entity involved.  For students, it makes no sense since
+legally, the closest model is that we are a data processor to the data
+the control themselves.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: I expect someone to say “no, what you describe isn’t what is
+actually required.  Well, then please help us to avoid spending so
+much time in meetings related to the above.  The purpose of this post
+is to help us realize when this is happening and change our mindset,
+not to complain or claim I know the best.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Note that the metadata of the platform, such as the login details
+would be covered under its own privacy notice.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="the-effect"&gt;
+&lt;h2&gt;The effect&lt;/h2&gt;
+&lt;p&gt;What happens?  We spend huge amounts of time trying to align things
+that don’t make sense together.  You know how people say EU
+over-regulation reduces innovation?  I think this is an example of it.
+All the goals are good: transparency of how data is processed and
+stored.  But when you are pushing the limits of normality
+(“innovating”), the real world doesn’t line up with the expectation,
+and when you are in a risk-adverse society (because of huge penalties
+of doing things wrong), lawyers will slow down everything that isn’t
+normal-looking.&lt;/p&gt;
+&lt;p&gt;Instead of time doing productive work (our final goal or understanding
+the complexities of the situation), we spend time fighting ourselves..&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="what-to-do"&gt;
+&lt;h2&gt;What to do&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Disclaimer: I’m not a lawyer but have been involved in these things
+for a while. I know the problem exists, but you need someone else to
+tell you if the below is possible and how to do it.  Or hire someone
+who will make it possible.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Part of this is baked into the system and there is not much to do.&lt;/p&gt;
+&lt;p&gt;But our organizations need to spend more time trying to interpret
+things usefully, not make our documents look as normal and boring as
+possible.  This actually takes skill, which I would think would be
+more interesting than debating documents the way is done now.&lt;/p&gt;
+&lt;p&gt;We should accept that some things are platforms and the privacy
+notices can be delegated to another part of our organizations.  And
+better acknowledgment that sometimes we are a data processor but not
+controller (and the controller may be a private individual or a
+different part of the organization).&lt;/p&gt;
+&lt;p&gt;This will both be more transparent for our users (which is the actual
+intention after all), easier for us to document (long term, once we
+understand how to do it), and more interesting for our legal services
+who are supervising things.  I’m not saying it will be easy, or even
+possible, but it will be useful.&lt;/p&gt;
+&lt;p&gt;While I haven’t been that involved in these “platform compliance
+problems”, I’ve seen this and think we should give more thought to the
+platform effects in the future.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/the-platform-compliance-pitfall/"/>
+    <summary>Roads don’t have to accept responsibility of who drives on them.
+There are some standards for being safe, though.  Imagine how much all
+construction would get slowed down if it gets bogged down in
+administartive work looking in detail about who goes over the road?</summary>
+    <published>2026-05-09T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/book-review-first-break-all-the-rules/</id>
+    <title>Book review: First, break all the rules</title>
+    <updated>2026-04-26T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="book-review-first-break-all-the-rules"&gt;
+
+&lt;p&gt;I recently read the book &lt;a class="reference external" href="https://en.wikipedia.org/wiki/First%2C_Break_All_the_Rules"&gt;First, break all the rules&lt;/a&gt;, based
+on seeing it referred to in another source.  It is one of these things
+about management, and I hoped to learn something that would help me in
+my job.  It seemed to be a bit more practical and useful than some
+management books, and it was roughly true.&lt;/p&gt;
+&lt;p&gt;The idea behind it is that the Gallup organization (known for polls,
+but apparently they do more) had investigated many companies and these
+authors had ideas based on what they learned.  Most relevant to me was
+twelve questions they found had the most correlation to
+high-performing workplaces.  These sure seem reasonable to me, even
+as someone who isn’t an expert in this:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Do I know what is expected of me at work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do I have all the materials and equipment I need to do my work
+right?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At work, do I have the opportunity to do what I do best every day?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the last seven days, have I received recognition or praise for
+doing good work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Does my supervisor, or someone at work, seem to care about me as a
+person?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Is there someone at work who encourages my development?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At work, do my opinions seem to count?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Does the mission/purpose of my company make me feel my job is important?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Are my co-workers committed to doing quality work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do I have a best friend at work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the last six months, has someone at work talked to me about my
+progress?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This last year, have I had the opportunities at work to learn and grow?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;They are divided into groups, and for most workplaces the bottom needs
+to be in place before the higher levels can be achieved.  There is a
+good metaphor of mountain climbing and altitude sickness if you go to
+high too fast with acclimating:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;They define questions 1-2 as “base camp” (basic fundamentals of a
+job).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 3-6 are focused on one’s individual contribution (“camp 1”)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 7-10 are focused on belonging in the workplace (“camp 2)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 11-12 are focused on growth&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It then makes a point that a lot of management consulting and
+teambuilding things try to fix the higher levels without making sure
+that the bases are in place.&lt;/p&gt;
+&lt;p&gt;The other major point that stood out to me was “talent” vs skills and
+knowledge.  The book defines &lt;strong&gt;talent&lt;/strong&gt; as something intrinsic about a
+person, basically their personality or interests.  &lt;strong&gt;Skills and
+knowledge&lt;/strong&gt; can be learned.  The book goes through extensive arguments
+why you should accept someone’s talent as they are and not try to
+change them, rather than try to force people to doing what they don’t
+want.  Basically, treat everyone as an individual and find a way for
+all individuals to do they best they can do while meeting your goals,
+even if it gets creative.  Don’t try to change people, understand and
+adapt to them.  (To think of types of talents, it says there are
+striving, thinking, and relating.)&lt;/p&gt;
+&lt;p&gt;This seems pretty obvious to me, especially since at one point I
+decided “I’m not doing academics, let me adjust to what I’m good at”.
+Perhaps when the book was written more than 25 years ago, it was more
+novel?&lt;/p&gt;
+&lt;p&gt;For selecting employees, it says:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;When selecting someone, they &lt;strong&gt;select for talent&lt;/strong&gt;… not simply
+experience, intelligence, or determination.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When setting expectations, they &lt;strong&gt;define the right outcomes&lt;/strong&gt;.  Not
+the right steps.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When motivating someone, they &lt;strong&gt;focus on strengths&lt;/strong&gt;… not on
+weaknesses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When developing someone, they help [them] &lt;strong&gt;find the right
+fit&lt;/strong&gt;… not simply the next rung on the ladder.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is some info on making customers happy, which is also relevant
+for my team.  It says on four levels, in hierarchical order:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Customers expect accuracy.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect availability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect partnership.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect advice.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Overall, I’m glad I read the book and think these questions are a good
+guide for our team, however, I’m not saying others should read it.  It
+was entertaining enough and wasn’t that hard to read, though, and gave
+me stuff to think about.  The things above are enough of a reminder
+for my future use, even if there isn’t &lt;em&gt;that&lt;/em&gt; much different from what
+I try anyway.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/book-review-first-break-all-the-rules/"/>
+    <summary>I recently read the book First, break all the rules, based
+on seeing it referred to in another source.  It is one of these things
+about management, and I hoped to learn something that would help me in
+my job.  It seemed to be a bit more practical and useful than some
+management books, and it was roughly true.</summary>
+    <published>2026-04-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/it-department-manifesto/</id>
+    <title>Manifesto on university IT departments</title>
+    <updated>2026-03-10T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="manifesto-on-university-it-departments"&gt;
+
+&lt;p&gt;&lt;em&gt;Alternative title: Challenging patterns with university IT for research&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;This was written in 2025 and first publicly read on 12 June 2025.
+It’s now being released publicly.&lt;/p&gt;
+&lt;p&gt;BEGIN MANIFESTO&lt;/p&gt;
+&lt;p&gt;In my travels, I’ve met many people and seen one pattern: at every
+university, people are upset at their (central university) IT
+departments.  Why is this?  I’ll argue it isn’t because of the
+people: individually, at my university, all the people I know in our
+IT Services unit are quite competent and motivated.&lt;/p&gt;
+&lt;p&gt;I think the problem goes deeper.  Organizations have learned that IT
+can become just as chaotic and unmanageable as any physical objects
+can be.  Enterprise IT has adapted to treat IT like any other
+infrastructure: make sure it is stable, secure, and efficient over
+long-term.  Since IT is so critical and not simply something to be
+thrown away if it goes wrong, IT departments must make sure that
+nothing goes wrong.&lt;/p&gt;
+&lt;p&gt;Some research just needs reliable and normal IT tools to do their
+work, since their work isn’t about the computing.  For them, an IT
+department is just what they need - it’s a basic infrastructure
+department like plumbing or electricity.&lt;/p&gt;
+&lt;p&gt;But for those of us for whom the computing/data/software IS the
+research, it’s different.  By definition, we move fast and break
+things, and for us, it’s the IT stuff we are pushing against.  For any
+impactful thing we discover, we’ve iterated through many wrong paths
+along the way.  By definition, we do many things wrong all the time.
+We are collectively trying to enable “radical creativity” and “game
+changing” using IT departments which are designed to make sure that
+there is no risk of anything going wrong.  Imagine every architecture
+student needing to go through city planning permission to make a model
+building for a student project - it’s just not appropriate given what
+the project is and the risk to society!  This is what’s I think is
+wrong with institutional IT departments: it’s not designed for the
+purpose for which we are using it.  It’s infrastructure, not research
+support.&lt;/p&gt;
+&lt;p&gt;This doesn’t work, and in fact produces the very outcome we so much
+want to avoid - a bunch of researchers going wild without control,
+since they have learned that asking for help doesn’t actually help.
+We want our IT related research to be secure and well managed.  But we
+are trying to make that happen by a department which is working on a
+whole other level, one that hardly shares the same language with the
+researchers who so desperately need help.  The result?  The
+researchers (either more actively or passively) ignore the IT
+department and do their own thing.  If you had a fixed deadline for
+graduating, finding your next job, or being promoted, would you not
+also do the same?&lt;/p&gt;
+&lt;p&gt;Said another way, research computing is not an IT system.  Maybe
+technically it is, but, it is fundamentally different.  An IT system
+processes data.  A research system is a tool for a researcher who is
+the prime processor.  You can spend all the time you want trying to
+make the system perfect and compliant, but in the end, it’s for
+naught, since you’ve evaluated the system, and not the use of the
+system.&lt;/p&gt;
+&lt;p&gt;So what to do?  It’s not a problem with the IT departments.  It’s not
+a problem with the people within them.  They are good at what they are
+supposed to do.  It’s a problem with how they are being used.  We need
+to recognize that an enterprise IT department is a reliable base to
+build on, not a research support unit.  Our management needs to
+properly separate the concerns of basic IT infrastructure and research
+support.  Some do this by separate departments such as “research
+computing” or a “computing center”.  If they are included in the same
+unit, there needs to be proper firewalling of the different concerns.
+If they must stay the same, we need managements who will provide a
+better mission for IT departments, and IT department leadership with
+the vision to handle both halves at the same time.&lt;/p&gt;
+&lt;p&gt;We’ve built the worst of both worlds: computational researchers who
+aren’t supported, and IT research that isn’t controlled or secure.  We
+can do better.  In the current world, we have to do better.&lt;/p&gt;
+&lt;p&gt;END MANIFESTO&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/it-department-manifesto/"/>
+    <summary>Alternative title: Challenging patterns with university IT for research</summary>
+    <published>2026-03-10T00:00:00+00:00</published>
+  </entry>
+</feed>

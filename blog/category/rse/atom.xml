@@ -1,0 +1,140 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://rkd.zgib.net/</id>
+  <title>Blog - Posts in rse</title>
+  <updated>2026-09-15T20:10:44.533566+00:00</updated>
+  <link href="https://rkd.zgib.net/"/>
+  <link href="https://rkd.zgib.net/blog/category/rse/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/vision-of-nordic-scientific-computing/</id>
+    <title>A vision of Nordic Scientific Computing</title>
+    <updated>2026-05-16T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="a-vision-of-nordic-scientific-computing"&gt;
+
+&lt;p&gt;I was asked what is my vision for Nordic collaboration in scientific
+computing support.  This is something I have been thinking about for
+years, so I thought I would write it so that everyone can see.  In
+short, there are close collaborations, but we need some down-to-earth
+events to bring it together at the hands-on user-support level.&lt;/p&gt;
+&lt;section id="what-are-we-aiming-for"&gt;
+&lt;h2&gt;What are we aiming for?&lt;/h2&gt;
+&lt;p&gt;Research is important for society, and thus computing and research is
+important.  Often times, academics get all the attention, but us
+backend people (who I broadly call “research engineers”) are quite
+important too.  Research infrastructure support is important for
+research, but often doesn’t get that much attention.  It is valuable
+skill that needs practice, and isn’t taught in “school”.  User support
+is equally important, and even less taught in school.  Both need
+practice and a community, just like academics need to do their job.&lt;/p&gt;
+&lt;p&gt;My particular interest is scientific computing - broadly defined to
+include data, HPC, coding, and so on.  These lessons also apply to
+other research engineer type fields, and we can use the lessons there,
+too.&lt;/p&gt;
+&lt;p&gt;See also: &lt;a class="reference external" href="https://docs.google.com/presentation/d/1lF-2QtVa6obI_ceSYJ8wq0PhaiQVCf2Jmb_KUo6H-rQ/edit?slide=id"&gt;Architects vs engineers (in computing)&lt;/a&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="my-idea"&gt;
+&lt;h2&gt;My idea&lt;/h2&gt;
+&lt;p&gt;I think that &lt;a class="reference external" href="https://neic.no/"&gt;NeIC&lt;/a&gt; is a good model and about the
+right size.  There is enough critical mass, and distances and cultures
+are close.  NeIC has good collaboration for its projects, and the idea
+should go beyond the accepted projects.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="teaching-collaboration"&gt;
+&lt;h2&gt;Teaching collaboration&lt;/h2&gt;
+&lt;p&gt;CodeRefinery has a great teaching collaboration going.  I think this
+should continue and be enhanced.  Some of the benefits are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;It is the level-1 RSE training.  Most of the RSEs I have hired have
+attended CodeRefinery and for some of them it inspired their career
+choice.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Teaching is a concrete activity that we can do together.
+&lt;strong&gt;CodeRefinery team-teaching provides high amounts of interaction
+between instructors, so that they can learn from each other, too.&lt;/strong&gt;
+Open materials suitable for reference later on are also a valuable output.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Team teaching (including helpers, notes Q&amp;amp;A, and local breakout
+rooms) for advanced topics provides a way to spread the knowledge
+and promote staff development.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition-teaching-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Teaching actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Expanded in-person breakout rooms for CodeRefinery courses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This turns into more advanced (beyond CodeRefinery level) joint
+courses, which serve to save time teaching + share knowledge across
+countries.  Teaching (even with a limited audience) serves as a way
+to connect.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="conferences-and-meet-ups"&gt;
+&lt;h2&gt;Conferences and meet-ups&lt;/h2&gt;
+&lt;p&gt;I want to get back the magic of my first NeIC conference (2017), which
+I felt was very much focus on hands-on mechanics of computing.  Part of
+this is remembering the past more fondly than the present, but I think
+there was something there.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I want conferences and meet-ups that are not top-down (manager or
+funding focused) but bottom up (what are our actual problems?  What
+isn’t known?).  &lt;strong&gt;Also present things which are problems or
+in-progress, not nice-looking solutions.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I want a special focus on usability and users, not a race for the
+biggest or coolest systems.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Basically, I want more things like the &lt;a class="reference external" href="https://aaltoscicomp.github.io/NoBSC/"&gt;Nordic Basic Scientific
+Computing&lt;/a&gt; meetup I helped
+organize.  I can do this by helping NeIC conferences, or I can
+continue NoBSC myself.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The key points of NoBSC were: present problems and in-progress
+work, not just completed solutions.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="admonition-meet-up-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Meet-up actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I will continue to organize NoBSC in 2027.  I plan for 2027 to still
+be focused on Finland and 2028 to focus on Nordic expansion, but if
+there is interest the expansion can already happen in 2028.  (In all
+cases others are always invited, just not with an explicit
+advertising focus)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;I would happy to drop that and instead focus on NeIC conferences and
+meetups to bring my ideas there, instead.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;section id="joint-scicomp-support"&gt;
+&lt;h2&gt;Joint SciComp support&lt;/h2&gt;
+&lt;p&gt;It’s hard to build joint support structures, since it’s hard to do
+free work for other organizations.  It’s hard to fully transfer a
+support case to someone else.  However, it is possible to ask for and
+give advice freely.&lt;/p&gt;
+&lt;p&gt;The two points above (teaching and meetups) promote a network that
+lets us know who to refer to.  This is like the NeIC model, but
+broader, not just those employed in a NeIC project.&lt;/p&gt;
+&lt;div class="admonition-support-actions admonition"&gt;
+&lt;p class="admonition-title"&gt;Support actions&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;I would focus on the two points above.  It makes a network, and
+after there is a network where we can ask each other for help.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;As part of the teaching + meetups, I would have a focus on usability
+and user support.  This will help with internal support. (I have to
+do user support training when we hire new people, and would be happy
+to share this.)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/vision-of-nordic-scientific-computing/"/>
+    <summary>I was asked what is my vision for Nordic collaboration in scientific
+computing support.  This is something I have been thinking about for
+years, so I thought I would write it so that everyone can see.  In
+short, there are close collaborations, but we need some down-to-earth
+events to bring it together at the hands-on user-support level.</summary>
+    <published>2026-05-16T00:00:00+00:00</published>
+  </entry>
+</feed>
