@@ -42,7 +42,8 @@ Basics
 Posts
 -----
 
-(newest at top, see also the :doc:`blog index <blog/index>`)
+(Newest at top, see also the :doc:`blog index <blog/index>`.  `Atom
+feed <https://rkd.zgib.net/blog/atom.xml>`__.)
 
 .. postlist::
    :list-style: circle
