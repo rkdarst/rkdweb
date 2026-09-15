@@ -10,6 +10,11 @@ project = 'Richard Darst'
 copyright = '2026, Richard Darst'
 author = 'Richard Darst'
 html_title = "Richard Darst"
+blog_baseurl = "https://rkd.zgib.net/"
+blog_feed_fulltext = True
+blog_feed_archives = True
+blog_feed_length = 50
+#post_auto_excerpt = 1000 # number of paragraphs in excerpt, overrideable.
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
