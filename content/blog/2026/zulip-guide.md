@@ -64,7 +64,9 @@ Second, once you have things sorted, you can much more easily filter
 and find what's important to you.  You can see more of past
 conversations.  If you see a new interesting message, you can click on
 it and see all the past history.  You can get notified for specific
-conversations and hide others.
+conversations and hide others.  You can search all topics by using the
+"Filter left sidebar" (this filters channels and direct messages) and
+push enter (this switches to filter by *topic* in every channel).
 
 As a newcomer, you won't know what all has happened before, so thus
 may start duplicate topics.  That's OK!  In all the organizations I am
