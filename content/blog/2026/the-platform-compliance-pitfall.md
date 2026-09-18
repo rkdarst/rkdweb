@@ -20,7 +20,7 @@ increase the costs of roads.
 ## The point
 
 In my work, we maintain various learning platforms.  This is what one
-of their privacy notices could drop like:
+of their privacy notices could look like:
 
 ```{admonition} Privacy notice for student data
 * Data contains: whatever you upload
@@ -30,7 +30,7 @@ of their privacy notices could drop like:
 * To update or correct data: correct it yourself
 ```
 
-Or this, for the assignments submitted via the platform
+Or this, for the assignments submitted via the platform:
 
 ```{admonition} Privacy notice for student data
 * Data contains: whatever your teacher requests you submit (in
