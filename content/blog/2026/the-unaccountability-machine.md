@@ -73,7 +73,8 @@ There are several main lessons I got from the book:
   over them" is relatively general, and we should make sure for each
   thing we do, someone has the bigger picture and can intervene if
   things are going outside of the expected parameters, and make sure
-  the parameters are adjusted.
+  the parameters are adjusted.  "Our people are smart and independent"
+  doesn't replace the people watching the bigger picture.
 
 * **Any complex organization isn't one mind, or many individuals, but
   many different parts (people) communicating in a complex network.**
