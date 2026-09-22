@@ -69,6 +69,12 @@ There are several main lessons I got from the book:
   roles, but thinking of them helps me realize some things we need to
   make sure get done.
 
+  Still, the broader idea of "systems have higher systems watching
+  over them" is relatively general, and we should make sure for each
+  thing we do, someone has the bigger picture and can intervene if
+  things are going outside of the expected parameters, and make sure
+  the parameters are adjusted.
+
 * **Any complex organization isn't one mind, or many individuals, but
   many different parts (people) communicating in a complex network.**
   This can easily allow decisions to be made and propagated elsewhere
