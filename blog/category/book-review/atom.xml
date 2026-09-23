@@ -1,0 +1,1309 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://rkd.zgib.net/</id>
+  <title>Blog - Posts in book-review</title>
+  <updated>2026-09-23T07:09:04.139206+00:00</updated>
+  <link href="https://rkd.zgib.net/"/>
+  <link href="https://rkd.zgib.net/blog/category/book-review/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/the-unaccountability-machine/</id>
+    <title>Book review: The Unaccountability Machine</title>
+    <updated>2026-09-13T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="book-review-the-unaccountability-machine"&gt;
+
+&lt;p&gt;I’ve been interested in why organizations work (or seem to not work,
+despite everyone in them being good people).  Another book cited the
+book “The Unaccountability machine”
+(&lt;a class="reference external" href="https://en.wikipedia.org/wiki/The_Unaccountability_Machine"&gt;wikipedia&lt;/a&gt;,
+&lt;a class="reference external" href="https://helmet.finna.fi/Record/helmet.2605064?sid=5513401888"&gt;HelMet
+libraries&lt;/a&gt;)
+as being related to this topic, so I checked it out.  In the end, the
+book did provide some thoughts on this, mainly through the lens of
+complex webs of decision making and accountability sinks.  The first
+half was most relevant to me; the second half ventured into economics
+and society (which was still interesting, but not my main focus).&lt;/p&gt;
+&lt;section id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;In modern times, the word “cybernetics” makes one think of
+human/machine combinations or maybe computer technology in general,
+but the original definition (1940s and onward) was about decision
+making, feedback, and control of systems (machines, organizations,
+economies, etc.).  It’s important to keep this in mind, otherwise the
+topic and review below can easily get confused with unrelated
+technology matters.  Cybernetics and the book are about &lt;em&gt;information
+flows&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Systems don’t have motivations.  They are made up of people who have
+motivations and outside influences.  How can a system made of good
+people have bad outcomes?  How can it be avoided?  These are the kinds
+of questions I wanted to answer.&lt;/p&gt;
+&lt;p&gt;There are several main lessons I got from the book:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;The number of states a system can be in vs the amount possibly
+gradations of control input.&lt;/strong&gt;  This is known as
+“&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Variety_(cybernetics)"&gt;variety&lt;/a&gt;”.
+An example from my university:&lt;/p&gt;
+&lt;p&gt;The university defines there are four categories of data (levels of
+confidentiality), and that should dictate how the data is handled.
+However, a university is a complex thing with very different
+{operations, teaching, research} divisions, and four categories to
+control data (&lt;em&gt;input variety&lt;/em&gt;) just isn’t enough to express the wide
+&lt;em&gt;variety&lt;/em&gt; of actual data (and there isn’t enough variety of other
+processes or exceptions).  This leads to people doing whatever they
+want (ignoring the rules since they don’t seem applicable), or
+never-ending discussions about how the system needs to be tweaked to
+make it work.&lt;/p&gt;
+&lt;p&gt;The idea that the internal complexity of a system has to match the
+external complexity it faces is the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Variety_(cybernetics)#Law_of_requisite_variety"&gt;Law of Requisite
+Complexity&lt;/a&gt;,
+and once I realized this, I started seeing almost every
+dysfunctional thing of our university being caused by its violation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Cyberneticists have broken down organizations into five systems
+needed for their control&lt;/strong&gt; (&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Viable_system_model"&gt;Viable system
+model&lt;/a&gt;)
+(&lt;strong&gt;operations, regulation, optimization or integration,
+intelligence, and philosophy or identity&lt;/strong&gt;, see more in Chapter 5’s
+summary below).  My own team is too small to have these as defined
+roles, but thinking of them helps me realize some things we need to
+make sure get done.&lt;/p&gt;
+&lt;p&gt;Still, the broader idea of “systems have higher systems watching
+over them” is relatively general, and we should make sure for each
+thing we do, someone has the bigger picture and can intervene if
+things are going outside of the expected parameters, and make sure
+the parameters are adjusted.  “Our people are smart and independent”
+doesn’t replace the people watching the bigger picture.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Any complex organization isn’t one mind, or many individuals, but
+many different parts (people) communicating in a complex network.&lt;/strong&gt;
+This can easily allow decisions to be made and propagated elsewhere
+in a way that doesn’t quite make sense, with little feedback or
+accountability to the place the decisions were made.  This makes the
+accountability sinks (which was apparently defined here, though I
+would have thought it was older).&lt;/p&gt;
+&lt;p&gt;A complex network of nodes sending signals to each other, sometimes
+having a result that is undesired?  Sounds like “artificial
+intelligence” these days, with hallucinations and wrong answers,
+doesn’t it?  Just like with “AI”, there needs to be a feedback
+system to keep an eye on things.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The second half of the book is focused on economics and society
+(because the author is somewhat of an economist) and less relevant to
+my work, but I found that it was quite useful to me anyway.  Overall,
+I found some good points that I could apply to my own non-economics
+life.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="overall-thoughts"&gt;
+&lt;h2&gt;Overall thoughts&lt;/h2&gt;
+&lt;p&gt;I liked the book and was happy to read something that combined
+something in my comfort zone (science-ish description of cybernetics)
+with something outside it (economics).  I’ve learned some buzzwords
+that I can use in my job to push for changes, though I predict it’s an
+uphill battle to get anything actually done.&lt;/p&gt;
+&lt;p&gt;As my team gets more complex, we need to encapsulate different parts
+and have their internal variety and management, while having a more
+limited variety that reaches higher levels for the systematic decision
+making.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="chapter-by-chapter-analysis"&gt;
+&lt;h2&gt;Chapter-by-chapter analysis&lt;/h2&gt;
+&lt;p&gt;Below is a summary of each chapter.  I state what the book says (with
+some of my opinions or take-away messages mixed in), but I am not
+qualified to judge if the book is correct or not.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="part-1-the-nature-of-the-crisis"&gt;
+&lt;h2&gt;Part 1: The nature of the crisis&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id="introduction"&gt;
+&lt;h2&gt;(0) Introduction&lt;/h2&gt;
+&lt;p&gt;The industrialization of society makes larger and more complex
+organizations, and they need to be controlled.  The theory of these
+control structures is “cybernetics” (the original definition).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I liked this intro, because it related to my thing about
+industrialization (of finance, control, etc) being the more relevant
+problem in our society than just capitalism that most people complain
+about.  The idea is that when things get too big, they somehow makes
+more than their share of problems.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="something-s-up"&gt;
+&lt;h2&gt;(1) Something’s up&lt;/h2&gt;
+&lt;p&gt;Organizations sometimes do things that just make no sense, for
+example, the banking crisis of 2008.  No person wanted this, yet
+somehow it happened.  There were even people who could predict it, but
+no one would listen to them because the system was on autopilot and
+not taking feedback.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Accountability sinks&lt;/strong&gt; are ways that decisions can be made such that
+no individual person is accountable.  A decision may come out of the
+organization, but all the individuals of the organization can say “I
+don’t agree with this but it’s not me who decided” - so where does it
+come from?  Who takes accountability?  These are quite common when you
+start looking for them, when everyone can pass off the responsibility
+for a decision/rule to someone else (often laundering it through
+various policies or laws).&lt;/p&gt;
+&lt;p&gt;I will choose to not mention one example the book gives involving
+animals, since it’s just too tragic.  Another example given is
+academic publishing.  Professional publishers have managed to insert
+themselves into the academic system and extract huge amounts of money,
+and most people agree there are serious problems with relying almost
+exclusively on citations for academic career purposes.  Yet, still, it
+stays, because it’s now part of the system and the politics of making
+any other decision about careers would be too much.&lt;/p&gt;
+&lt;p&gt;There are two types of decision-makers, kings (who are humans and to
+whom decisions can be appealed), and priests (who speak the word of
+god and thus you can’t appeal to them).  Too often, a decision may be
+made by a “king” but gets conveyed by “priests”, and there is no way
+to send feedback that something is wrong.  This can cause unrest.&lt;/p&gt;
+&lt;p&gt;All the above isn’t just an accident.  It’s a trade-off, discretion
+(to do the right thing) vs following the rules.  What’s the balance?
+This is the next chapter.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overall, this chapter said what I wanted to hear about
+organizations, bad choices, and and unaccountability and left me
+wanting an analysis.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="stafford-beer"&gt;
+&lt;h2&gt;(2) Stafford Beer&lt;/h2&gt;
+&lt;p&gt;This chapter is about the historical context.&lt;/p&gt;
+&lt;p&gt;Stafford Beer was one of the founders of management cybernetics - as
+discussed above, how decisions get made.  Beer looked at systems as
+composed of black boxes (something with defined inputs and outputs,
+but the internals can’t be examined): different components, and each
+component had some behavior.  You couldn’t/didn’t look into the boxes.
+Of course, you could recursively look into them if you wanted, or
+package multiple black boxes into another black box.  Still, at some
+level, one has to draw black boxes around some parts of the system and
+analyze the parts outside of that.&lt;/p&gt;
+&lt;p&gt;Management cyberneticists looked at systems as black boxes and that
+interact with each other, to discover various theories of control.
+Thinking in terms of black boxes gives the saying “&lt;a class="reference external" href="https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does"&gt;the purpose of a
+system is what it
+does&lt;/a&gt;”.
+This is important to keep in mind so that one doesn’t blame the
+individuals for what the system does - you have to look at the
+connections and control structures.&lt;/p&gt;
+&lt;p&gt;In the end, systems/organizations are controlled by meetings between
+the different levels and components.  This often happens by resource
+bargains between different components, so that each part can focus on
+its internals with a defined interface to the outside.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I understand the concept of the black boxes, it took some time to
+fully internalize the recursive nature of them.  I’m still not quite
+clear where one should decide to draw the black boxes (what level and
+what size), but I guess that’s part of the art of the field.  You
+should probably draw them at the places that are most useful for your
+current problem.  In the end, this question doesn’t matter too much
+for my understanding.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="aliens-among-us"&gt;
+&lt;h2&gt;(3) Aliens among us&lt;/h2&gt;
+&lt;p&gt;So, a system is made up of black boxes once you go deep enough.
+These are all connected and sending signals to each other.  It becomes
+a… neural network?  There are clear metaphors to “artificial
+intelligence” here, where the system takes on a mind of its own, but
+each individual part can’t have accountability.  This also relates to
+the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Chinese_room"&gt;Chinese room (translation) thought
+experiment&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This applies to all kinds of things, from social media algorithms to
+corporate management.  Yet, we know the organization itself is not
+sentient.  So, the organization itself isn’t accountable, but neither
+are the independent parts (because they are just playing their role).&lt;/p&gt;
+&lt;p&gt;The more connections a system has, the harder it is to understand.
+However hard you look, you will probably miss something.&lt;/p&gt;
+&lt;p&gt;If you are interacting with one of these systems, you can be given the
+policies/documents in response to a query about why a decision was
+made a certain way.  But that never explains why &lt;em&gt;the policies&lt;/em&gt; are
+made a certain way.  The accountability for them has been sunk into
+the network itself, and if people only try to hold individuals
+accountable, everyone can escape accountability.&lt;/p&gt;
+&lt;p&gt;So, in the end, you see the same thing over and over again.  Comments
+about an organization that say they admire all the people inside, but
+despise the overall organization.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This part of organizations being a computing network really made
+sense to me and started to build my understanding of why it is so hard
+to change broken policies (and certainly matches with my “most people
+I know are well-intentioned and good at their jobs”).  When we need
+something to change, we can’t just blame individuals.  We should
+definitely start thinking of organizations as their connections, not
+only as their individuals.  It doesn’t give a solution yet, though.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="intermission-computing-ponds-and-rabbit-hole"&gt;
+&lt;h2&gt;Intermission: Computing ponds and rabbit hole&lt;/h2&gt;
+&lt;p&gt;This was about the idea of a pond of decaying matter sending signals
+to each network and becoming sentient or otherwise a network of
+intelligence.  Or other ways of making systems of “dumb” objects
+sending signals to each other to form a larger whole that appears
+capable of purposeful action.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As a person in computing, this all flowed quite naturally and makes
+sense in the concept of neural nets/artificial intelligence.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="part-2-pathologies-of-the-system"&gt;
+&lt;h2&gt;Part 2: Pathologies of the system&lt;/h2&gt;
+&lt;/section&gt;
+&lt;section id="how-to-psychoanalyze-a-non-human-intelligence"&gt;
+&lt;h2&gt;(4) How to psychoanalyze a non-human intelligence&lt;/h2&gt;
+&lt;p&gt;This starts off with an explanation of why “cybernetics” these days
+refers to computers: because people got too good at building
+transistors and computing devices.  It took all the attention from the
+decision making part of the field.&lt;/p&gt;
+&lt;p&gt;This chapter talks about how systems can be controlled and analyzed.
+The main consideration is what kind of information controls it, and
+this gets to the concept of variety of information.
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Variety_(cybernetics)"&gt;Variety&lt;/a&gt;, in my
+own words, somehow relates to the number of states a system can have,
+or its inherent complexity.  It can also refer to the number of
+possible outside stimuli or control settings a system has.  Variety of
+internal states (or complexity) needs to somehow be aligned with
+variety of control.&lt;/p&gt;
+&lt;p&gt;Example: Let’s take a room’s thermostat.  It has one input, the
+temperature, and has one output, amount of heat applied.  The variety
+of control matches the variety of internal states of the system.  If
+we wanted to control temperature &lt;em&gt;and&lt;/em&gt; humidity, but only have heating
+control, it is quite possible that we can’t react to all possible
+states of the room and bring it to the desired state.&lt;/p&gt;
+&lt;p&gt;When you have a complex system consisting of lots of black boxes,
+there are many different states you can be in.  What happens if you
+can’t measure enough information about the state, or have enough
+control knobs to affect it?  You have a problem.  The &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Variety_(cybernetics)#Law_of_requisite_variety"&gt;Law of
+Requisite
+Variety&lt;/a&gt;
+says you need as much control variety as you have variety of internal
+states.&lt;/p&gt;
+&lt;p&gt;This is a general argument and note that it doesn’t require knowing
+exactly what the measurements and controls are.  You can reason that a
+system has lots of internal variety but not that many ways of control,
+and know you have a problem - even without knowing exactly what the
+states or controls are.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This chapter resonated with me and I like the general theory of
+variety.  It provides me a powerful tool to say “you are
+over-simplifying the policies you are making” - though I imagine it
+will be hard to get the right people to understand this, if they don’t
+want to understand what is wrong with their policy from the policy
+itself.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="cybernetics-without-diagrams"&gt;
+&lt;h2&gt;(5) Cybernetics without diagrams&lt;/h2&gt;
+&lt;p&gt;This tries to get into the deep theory of cybernetics without being
+too technical.  It says this is hard, and perhaps it’s not so
+interesting.  However, one part was quite interesting:&lt;/p&gt;
+&lt;p&gt;A system that maintains its state needs different parts to be a
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Viable_system_model"&gt;viable system&lt;/a&gt;
+that is capable of maintaining control over itself.  There are
+different standard functions needed to stay in homeostasis with its
+environment.  The cyberneticists thought that such a system
+needs to have:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;System 1: operations.&lt;/strong&gt; What the system actually tries to do for
+the real world.  It does the main thing (say, run a computing
+cluster), but left alone it could go out of control and over- or
+under-build what is needed or not coordinate maintenance and use.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;System 2: regulatory.&lt;/strong&gt; This is the basic regulation of operations
+to make sure that operations stays synced.  In our computer cluster
+example, it may coordinate hardware upgrades, software
+installations, and maintenance to make sure the system works.  This
+makes the basic resource bargains for how stuff works.  This is
+about preventing clashes and managing conflicts (things everyone
+thinks are necessary).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;System 3: optimization or integration.&lt;/strong&gt; This directs different
+components towards a main purpose and allocates things between
+different System 1 operations.  This is about the overall mission
+(compared to System 2).  This is the first real “management” level
+and what some people complain about being unnecessary.  In our
+cluster example, this might include allocating resources from
+hardware upgrades to support and vice versa depending on overall
+needs of the users.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Systems 1 and 2 absorb most of the variety of customers, but sometimes
+customers will need something beyond what they can provide.  In this
+case, System 3 needs to step in and adjust the mission by escalating
+to the level above.  Too much System 3 involvement in System 1 (rules
+with no exceptions) can result in breakdown, since System 3 can’t
+process &lt;em&gt;all&lt;/em&gt; the variety coming in to System 1.  This is
+micromanagement and takes time away from what System 3 should be
+doing.  The other system, of leaving everything to System 1, can
+result in no planning.  The book makes a point that there can be an
+informal System 3 by System 1 managers; this is OK as long as they
+make sure it gets done - this is the value of informal meetings.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;System 4: intelligence.&lt;/strong&gt;  If System 3 manages what is happening
+now, System 4 is planning for the future by looking outwards to the
+world (not just the current state but predicting what is coming).
+In our cluster example, this might be looking at emerging
+technologies that change the way clusters are run.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;System 5: philosophy or identity.&lt;/strong&gt; In some sense this balances
+changes identified by System 4 with the need to keep unit running
+from System 3 (you can’t change too fast or you lose your identity,
+and then maybe you cease to exist).  It balances the broad
+organizational units.  System 5 decides what the system does, and
+thus its purpose.  In our cluster example, this might involve
+thinking of the role of clusters as cloud computing and AI become
+more common.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These systems are recursive throughout the organization.  The whole
+organization has its five systems, then each sub-unit will have its
+five systems, and so on all the way down.&lt;/p&gt;
+&lt;p&gt;It doesn’t say these have to be different people or units, just that
+they need to happen.  I do sort of wonder how rigorous the
+justification is for separating all of them (the book didn’t go into
+detail about how they were decided).&lt;/p&gt;
+&lt;p&gt;These systems also have their own amount of variety of signals going
+in and out.  They variety in control signals to each system to be
+matched to the complexity of the task they are performing.&lt;/p&gt;
+&lt;p&gt;If they don’t have enough variety to handle an emergency, they need to
+be able to “declare an emergency” and call a higher level in order to
+bring the resources needed to solve a problem.  The book uses the
+example of a &lt;strong&gt;red handle&lt;/strong&gt; in a train that means you have to do an
+emergency stop and notify the control center.  All schedules are now
+messed up and you need a higher level of the organization to fix the
+problem.  (This doesn’t just mean a higher System number; it means the
+higher recursive “viable system” level with all its boxes).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;While I wouldn’t go building these into my teams, it is a good
+checklist I would use to make sure our team is handling everything
+that needs to be done.  It also provides some good abstraction levels
+for dividing up tasks, once a team gets large enough.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="intermission-decerebrate-cats"&gt;
+&lt;h2&gt;Intermission: decerebrate cats&lt;/h2&gt;
+&lt;p&gt;This tells a metaphor about how you can cut the link in a brain
+between the cerebellum and the rest of the brain.  The living being
+still seems alive (walking, eating, grooming itself, etc.).  But by
+any measure, it doesn’t think or have purposeful actions anymore.  It
+can keep living and functioning as long as the environment is what it
+is used to, but once the environment changes, it can’t adapt.  This
+was apparently part of real experiments done.&lt;/p&gt;
+&lt;p&gt;Stafford Beer talked about decerebrate organizations which similarly
+have lost the ability to adjust to the world.  It will keep surviving
+until a shock comes up, and then goes into crisis.  If it can’t
+re-establish the higher-level Systems, it will simply collapse.  It
+warns that if someone sees their organization decerebrate-ing itself,
+start updating your CV and looking for new jobs.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The book gives the example of universities as typical decerebrate
+organizations, and this is when I started getting sad.  It’s exactly
+what I have been seeing with some parts of my university, in
+particular about challenges challenges with legal compliance processes
+or data classification.  The world is more complex than it was before
+and it’s trying to apply old processes to new things, but no one can
+take a step back and say “wait, we need to adjust how we see ourselves
+to fit the current state of the world.”  It might be more about
+feedback rather than the System 5, but still I got feelings from
+reading this&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="part-3-the-blind-spots"&gt;
+&lt;h2&gt;Part 3: The blind spots&lt;/h2&gt;
+&lt;p&gt;Now, the book makes a clear shift and starts connecting to economics
+and society.  This was interesting to me, but not the main thing I
+intending to learn about.  You could say this part attempts to explain
+how “late-stage capitalism” works (and has become such a buzzword for
+everything that’s wrong in the world).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;If you don’t care about the society-wide aspects, capitalism, and
+economics, you can scan the rest of the summary.  Even the book’s
+conclusion focuses on economics and society and was not exactly
+relevant to my work.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="economics-and-how-it-got-that-way"&gt;
+&lt;h2&gt;(6) Economics and how it got that way&lt;/h2&gt;
+&lt;p&gt;First, what is an economist?  The book says that economics is the
+science of optimizing scarce resources (and since everything is scarce,
+economists get to play the rulers of society by making models to say
+the best way to run everything in the world).  It does this by trying
+to express everything in terms of money.&lt;/p&gt;
+&lt;p&gt;Like many fields, economists have “physics-envy” and have tried to make
+models and predictions.  However, economists can often forget that
+these are just models and many assumptions have gone into them,
+and the assumptions can pre-determine the conclusions.  You can also
+forget that the model is just a model, and the real world can do
+things outside what you predict (this is especially the case since
+humans are complex) - it calls this the Ricardian Vice.&lt;/p&gt;
+&lt;p&gt;This is obvious to physicists but worth making clear: just because
+something is proven in your nice model with the complexity stripped
+out doesn’t mean it is true in the real world.&lt;/p&gt;
+&lt;p&gt;One of the dominant models is that an economy is so complex it’s
+impossible for any normal control methods to handle it - you can’t
+bring enough variety to control all the components.  Thus, the
+assumption is that a free market composed of many different parts
+making their own contracts and looking after their own needs serves a
+computing fabric that can work to control the economy.&lt;/p&gt;
+&lt;p&gt;Everything can combine into a “the market knows best” (if you make the
+right assumptions), with the market serving as a computing fabric for
+making complex decisions - and is the seed of unaccountability.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;“Market as computing fabric” matches with mainstream western
+thought, and I don’t really object to that.  Later the book explains
+what is wrong beyond “capitalism bad”.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="if-you-re-so-rich-why-aren-t-you-smart"&gt;
+&lt;h2&gt;(7) If you’re so rich, why aren’t you smart?&lt;/h2&gt;
+&lt;p&gt;This starts by talking about how economics is a theoretical and not
+practical science.  Economics is not accounting and most economists
+couldn’t deal with real businesses, and the book claims this is
+because economists want to be seen as their own special profession
+above accountants, managers, and similar.&lt;/p&gt;
+&lt;p&gt;Accounts and accounting are the basic ways to measure a business, and
+they serve two purposes.  One is to control the business, another is
+to tell outsiders how the business is doing.  Accounting is difficult
+in any big enough business, and while there are standard practices,
+there are some choices made.  The same set of numbers aren’t
+necessarily good for all purposes (mandatory reporting for public
+companies vs internal bookkeeping for how it’s going).&lt;/p&gt;
+&lt;p&gt;Financial reporting also by its nature reduces variety, and makes
+fewer signals than there are internal states of the company.&lt;/p&gt;
+&lt;p&gt;So, what signals does one use to manage a company?  It’s easy to hire
+management consultants and they work to optimize the short-term public
+financial results at the cost of long-term operational value.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We need to be careful that our reports match with what we need to be
+measuring.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="intermission-meanwhile-in-chile"&gt;
+&lt;h2&gt;Intermission: Meanwhile, in Chile&lt;/h2&gt;
+&lt;p&gt;Stafford Beer went to Chile during its socialist era with the idea of
+applying management cybernetics to a command economy that was
+nationalizing industries (and thus had to manage them).  They had
+computers and were trying to get enough information all in one place
+(the futuristic-looking “operations room”) to manage it.  While it
+sounded like an interesting idea, applying the law of requisite
+variety makes one think even this wasn’t enough.&lt;/p&gt;
+&lt;p&gt;In the end, the US supported a coup (as usual) before it could go far
+enough to get results (or not).&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="part-4-what-happens-next"&gt;
+&lt;h2&gt;Part 4: What happens next?&lt;/h2&gt;
+&lt;p&gt;Now we get fully into the economics and politics of the modern world.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="enter-friedman"&gt;
+&lt;h2&gt;(8) Enter Friedman&lt;/h2&gt;
+&lt;p&gt;This section first taught me about Milton Friedman, a name I had heard
+often but didn’t know the story of.  Intentionally or not, he
+popularized the “neoliberalism” chain of thought which, more or less,
+said that a corporation can’t know what is best for society, so the
+best it can do is try to maximize its profits and let the market (the
+“computing fabric”) work out the rest.&lt;/p&gt;
+&lt;p&gt;There’s a distinction between the managerial class (those working to
+manage the companies, they may care about it) and the investing class
+(or capitalist class) which only cares about profits.  The basic idea
+of neoliberalism was that, if the management class tries to do
+something for the benefit of society, it’s spending someone else’s
+money and lacks accountability (taking on the role of a government).&lt;/p&gt;
+&lt;p&gt;This whole “maximizing shareholder value” concept (combined with
+“legal personhood” and “limited liability”) are purely artificial.
+It’s simply a choice that could have been made another way, or not at
+all.  And we’ll see this invented philosophy causes many downstream
+effects.&lt;/p&gt;
+&lt;p&gt;The “leveraged buyout” is when private equity buys a company that is
+under-performing to replace the management or otherwise force it to be
+more efficient.  This was seen as the ultimate threat for any managers
+that didn’t sufficiently try to maximize their companies’ profits, to
+“keep companies in line”, so to say.  Once bought-out, the companies
+were given their own debts and forced to cut back anything else in
+order to repay those debts, on threat of going bankrupt.  All
+together, this replaces any signals of “care about society” with
+“ignore everything else and maximize your profits in the short term”,
+which in the end leads to everything falling apart long-term.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This chapter is the thesis of the book, what is wrong with
+“late-stage capitalism” and all that.  In summary, the financial
+industry is so focused on optimizing profits (one signal) that
+everything else is falling apart.  This matches what I have seen.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="the-morbid-symptoms"&gt;
+&lt;h2&gt;(9) The morbid symptoms&lt;/h2&gt;
+&lt;p&gt;This starts off summarizing the book (this is my paraphrasing):&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;p&gt;The basic problem is that systems/companies need to be able to
+re-organize themselves as the world changes.  However, due to the
+financialization of everything, all the other signals needed for
+society/companies to react to the world can’t be processed,
+because “make profits” and “pay off debt” override it.  This leads
+to society’s polycrisis.&lt;/p&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;Stafford Beer’s philosophy was to pay attention to information
+crossing boundaries.  As companies get sliced up, managers’ ranks
+thinned, and functions outsourced, you lose the capacity to convey
+this information.&lt;/p&gt;
+&lt;p&gt;Some theorists had, about 100 years ago, thought the function of the
+investing class was to take risks and provide what the working class
+needed, while insulating the working class from the ups and downs of
+the business cycle.  Now that is reversed, where people think the
+system is the investing class works to maximize its profits, using the
+working class in the process.  The rise of things like populism is the
+“red handle” that things are not going OK.&lt;/p&gt;
+&lt;p&gt;The chapter ends by saying this is the nature of the current polycrisis.
+The system is growing and getting more complex.  It has been assumed
+that the free market will take care of things, but the signals of the
+computing fabric has been subverted and now all it can care about is
+short-term profit maximization.  All the middle layers of
+communication are slowly being gotten rid of because it’s unnecessary
+bloat, but really they were the ones carrying the messages.  No one
+protests “red tape (of bureaucracy) holds us together”.&lt;/p&gt;
+&lt;p&gt;**I agreed with the what is here, but then again I don’t have the
+knowledge to know if I should agree or not.  Still, roughly makes
+sense from what else I have read about problems with society.**qq&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="what-is-to-be-done"&gt;
+&lt;h2&gt;(10) What is to be done?&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;div&gt;&lt;p&gt;“If you can hear the problem, you can hear the solution.”&lt;/p&gt;
+&lt;/div&gt;&lt;/blockquote&gt;
+&lt;p&gt;As for the problem of private equity and leveraged buy-outs, one
+proposed solution is that limited liability should be moderated.
+Limited liability serves as an accountability sink to whoever buys a
+company.  The author thinks this might be enough.&lt;/p&gt;
+&lt;p&gt;Broadly, what the author thinks is needed is more viability and less
+maximization of single goals.  Right now, financialization has made
+one goal take full precedence over everything else, and the very
+limited variety of these signals means so much gets left out of the
+decision-making process, at least at the highest levels.&lt;/p&gt;
+&lt;p&gt;Going back to the artificial intelligence metaphor, we have made an
+artificial intelligence, told it to maximize profit, and it’s going
+wild.  Every system set up as a maximizer needs another system
+watching over it.&lt;/p&gt;
+&lt;p&gt;The book hypothesizes that things like social media provides more ways
+for more signals to be sent, but how will all these be managed?  Can
+they be?  Will AI (another maximizing system) be assigned to do it?
+It’s just another system that can be blamed.  I read this as idle
+thoughts rather than a fleshed-out proposal (and personally I would be
+quite hesitant to go down this path, but it’s an interesting thought).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Overall I didn’t quite think there was a great conclusion for the
+book, but as the first quote says, maybe that’s not the point.  This
+is hard, and if we can see the problem, maybe we can work towards it.
+I’m hesitant to for any solution that involves social media sending
+signals, but it is an interesting thought to come back to.  Anyway, I
+don’t need a conclusion or recipe for what to do about our economy,
+I’m happy with the lessons I learned along the way.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/the-unaccountability-machine/"/>
+    <summary>I’ve been interested in why organizations work (or seem to not work,
+despite everyone in them being good people).  Another book cited the
+book “The Unaccountability machine”
+(wikipedia,
+HelMet
+libraries)
+as being related to this topic, so I checked it out.  In the end, the
+book did provide some thoughts on this, mainly through the lens of
+complex webs of decision making and accountability sinks.  The first
+half was most relevant to me; the second half ventured into economics
+and society (which was still interesting, but not my main focus).</summary>
+    <published>2026-09-13T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/book-review-first-break-all-the-rules/</id>
+    <title>Book review: First, break all the rules</title>
+    <updated>2026-04-26T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="book-review-first-break-all-the-rules"&gt;
+
+&lt;p&gt;I recently read the book &lt;a class="reference external" href="https://en.wikipedia.org/wiki/First%2C_Break_All_the_Rules"&gt;First, break all the rules&lt;/a&gt;, based
+on seeing it referred to in another source.  It is one of these things
+about management, and I hoped to learn something that would help me in
+my job.  It seemed to be a bit more practical and useful than some
+management books, and it was roughly true.&lt;/p&gt;
+&lt;p&gt;The idea behind it is that the Gallup organization (known for polls,
+but apparently they do more) had investigated many companies and these
+authors had ideas based on what they learned.  Most relevant to me was
+twelve questions they found had the most correlation to
+high-performing workplaces.  These sure seem reasonable to me, even
+as someone who isn’t an expert in this:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Do I know what is expected of me at work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do I have all the materials and equipment I need to do my work
+right?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At work, do I have the opportunity to do what I do best every day?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the last seven days, have I received recognition or praise for
+doing good work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Does my supervisor, or someone at work, seem to care about me as a
+person?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Is there someone at work who encourages my development?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;At work, do my opinions seem to count?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Does the mission/purpose of my company make me feel my job is important?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Are my co-workers committed to doing quality work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do I have a best friend at work?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;In the last six months, has someone at work talked to me about my
+progress?&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This last year, have I had the opportunities at work to learn and grow?&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;They are divided into groups, and for most workplaces the bottom needs
+to be in place before the higher levels can be achieved.  There is a
+good metaphor of mountain climbing and altitude sickness if you go to
+high too fast with acclimating:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;They define questions 1-2 as “base camp” (basic fundamentals of a
+job).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 3-6 are focused on one’s individual contribution (“camp 1”)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 7-10 are focused on belonging in the workplace (“camp 2)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Questions 11-12 are focused on growth&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It then makes a point that a lot of management consulting and
+teambuilding things try to fix the higher levels without making sure
+that the bases are in place.&lt;/p&gt;
+&lt;p&gt;The other major point that stood out to me was “talent” vs skills and
+knowledge.  The book defines &lt;strong&gt;talent&lt;/strong&gt; as something intrinsic about a
+person, basically their personality or interests.  &lt;strong&gt;Skills and
+knowledge&lt;/strong&gt; can be learned.  The book goes through extensive arguments
+why you should accept someone’s talent as they are and not try to
+change them, rather than try to force people to doing what they don’t
+want.  Basically, treat everyone as an individual and find a way for
+all individuals to do they best they can do while meeting your goals,
+even if it gets creative.  Don’t try to change people, understand and
+adapt to them.  (To think of types of talents, it says there are
+striving, thinking, and relating.)&lt;/p&gt;
+&lt;p&gt;This seems pretty obvious to me, especially since at one point I
+decided “I’m not doing academics, let me adjust to what I’m good at”.
+Perhaps when the book was written more than 25 years ago, it was more
+novel?&lt;/p&gt;
+&lt;p&gt;For selecting employees, it says:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;When selecting someone, they &lt;strong&gt;select for talent&lt;/strong&gt;… not simply
+experience, intelligence, or determination.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When setting expectations, they &lt;strong&gt;define the right outcomes&lt;/strong&gt;.  Not
+the right steps.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When motivating someone, they &lt;strong&gt;focus on strengths&lt;/strong&gt;… not on
+weaknesses.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;When developing someone, they help [them] &lt;strong&gt;find the right
+fit&lt;/strong&gt;… not simply the next rung on the ladder.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There is some info on making customers happy, which is also relevant
+for my team.  It says on four levels, in hierarchical order:&lt;/p&gt;
+&lt;ol class="arabic simple"&gt;
+&lt;li&gt;&lt;p&gt;Customers expect accuracy.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect availability.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect partnership.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Customers expect advice.&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Overall, I’m glad I read the book and think these questions are a good
+guide for our team, however, I’m not saying others should read it.  It
+was entertaining enough and wasn’t that hard to read, though, and gave
+me stuff to think about.  The things above are enough of a reminder
+for my future use, even if there isn’t &lt;em&gt;that&lt;/em&gt; much different from what
+I try anyway.&lt;/p&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/book-review-first-break-all-the-rules/"/>
+    <summary>I recently read the book First, break all the rules, based
+on seeing it referred to in another source.  It is one of these things
+about management, and I hoped to learn something that would help me in
+my job.  It seemed to be a bit more practical and useful than some
+management books, and it was roughly true.</summary>
+    <published>2026-04-26T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2025/systemantics/</id>
+    <title>Book review: Systemantics</title>
+    <updated>2025-12-15T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="book-review-systemantics"&gt;
+
+&lt;p&gt;I read the book &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Systemantics"&gt;Systemantics&lt;/a&gt; by John Gall.  I saw
+some reference to it from another book, and Systemantics was short, so
+I figured why not.  In the end, I’m glad I did - while it’s not
+scientific book, it’s given me a way to put various problems into
+words, which will probably be useful.&lt;/p&gt;
+&lt;p&gt;The Wikipedia page linked above describes the basic contents pretty
+well, so I won’t try to give a very long summary of the contents here
+and instead focus on what I got from it.&lt;/p&gt;
+&lt;section id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;The book is basically about “&lt;a class="reference external" href="https://en.wikipedia.org/wiki/System"&gt;systems&lt;/a&gt;”, as in collections of
+interacting elements - in particular ones of humans working together.
+Think bureaucracies, recruitment processes, supply chains, etc.  You’d
+think that making a good process (= “system”) to handle something is
+easy: make the process, apply the process.  But in reality almost
+everything is strongly interacting with other things, and what works
+in theory almost never works in practice.  There are plenty of
+anecdotes, stories, and philosophies about things.&lt;/p&gt;
+&lt;p&gt;Some of the more important points include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;A working big system has always grow out of a working small system.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can’t just transplant a working big system from one place to
+another.  You can’t really fix up a non-working complex system, you
+have to start over.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Systems always grow, and when a system gets too big it always starts
+to fail simply because of how complex things get when many parts
+interact.  (Just think of how many sayings we have about things not
+working, such as Murphy’s Law.  It’s almost like in life, we expect
+things to not work by default.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Any changes tend to have unintended side-effects&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“Do it without a system if you can”, then “do it with an existing
+system if you can”, then “do it with a small system if you can”.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="thoughts-on-the-book"&gt;
+&lt;h2&gt;Thoughts on the book&lt;/h2&gt;
+&lt;p&gt;The first thing that became apparent was this book doesn’t take itself
+too seriously - it’s full of humor and almost sarcastic at times.
+Still, it makes you think in a way that is useful, just as a reader
+you need to apply plenty of your own thinking.&lt;/p&gt;
+&lt;p&gt;One of my most memorial examples of this hyperbole is about ships and
+logistics.  The book gives an example of how global shipping has grown
+out of control, until the engineers, in their quest to expand the
+system, have apparently forgotten that ships need to go into harbors,
+and the latest large oil tankers are too large and must be loaded and
+unloaded offshore.  Well, sure, ships grew too large, but the system
+adapted because this is more efficient.  It wasn’t somehow forgotten.
+(Still, the purpose of the example is make you think about things
+growing without bound.)&lt;/p&gt;
+&lt;p&gt;If you can use a critical mind and look through this, you can see
+various insights into human behavior.  I probably say it isn’t
+goundbreaking, and it isn’t original research, but reading it will
+help me to put thoughts into words, which will help me in my
+communication later on.&lt;/p&gt;
+&lt;p&gt;There are definitely connections to the book I read “The Innovation
+Delusion” which has the main hypothesis that people like making new
+things, but very rarely there is value of keeping existing good things
+going.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="relevance-to-my-work"&gt;
+&lt;h2&gt;Relevance to my work&lt;/h2&gt;
+&lt;p&gt;I work in a university that’s relatively new - it was merged from
+parts that are much older, but many of the processes being made are
+new.  Those parts are being made in a more complex regulatory
+environment with greater demands both on the community and from
+society.  That means we are trying to make many new complex systems.&lt;/p&gt;
+&lt;p&gt;In short, there are plenty of times research has to do something new:
+new laws or needs require something else (personal data protection,
+security, research ethics, etc.).  What happens each time at my
+university?  Let’s make a new process to deal with it!  We end up with
+many parallel processes (systems) trying to do the same thing.  Quite
+often, lots of work is put into them, and most of the community
+doesn’t even know about it (despite the community taking part being critical).&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;We shouldn’t try to make things perfect at the start.  Start small
+and grow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;We should accept imperfection if it means systems are more loosely
+connected, it’s less bad than strongly connected complex systems
+which probably won’t work anyway.  There’s an opportunity to grow.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Start small and usable and slowly grow to be better.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Use existing good processes and slowly expand them to cover more use
+cases, when the purposes are close enough.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2025/systemantics/"/>
+    <summary>I read the book Systemantics by John Gall.  I saw
+some reference to it from another book, and Systemantics was short, so
+I figured why not.  In the end, I’m glad I did - while it’s not
+scientific book, it’s given me a way to put various problems into
+words, which will probably be useful.</summary>
+    <published>2025-12-15T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/rse-lessons-from-civil-engineering/</id>
+    <title>RSE lessons from Civil Engineering</title>
+    <updated>2025-07-31T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="rse-lessons-from-civil-engineering"&gt;
+
+&lt;p&gt;I have had a long-running metaphor of {academic researchers, research
+software engineers} being like {architects, structural engineers}.
+The basic idea is that coming up with interesting and worthwhile
+ideas/designs is a distinct field from giving ideas “structural
+integrity” (=reproduciblity and technical rigor).&lt;/p&gt;
+&lt;p&gt;I’ve been thinking of this metaphor a lot, and decide to learn more.
+Thus, I read the book &lt;a class="reference external" href="https://search.worldcat.org/title/716208794"&gt;Civil engineer’s handbook of professional
+practice&lt;/a&gt;, by Karen
+Lee Hansen and Kent Zenobia (2011, first edition) (but there is a
+second edition).  I expected for the book to give me various insights
+that could be useful for developing a team of research engineers.  It
+was about 500 pages, so not exactly recommended reading for others,
+but I certainly got very many insights and am glad I read it.&lt;/p&gt;
+&lt;p&gt;Below, I quickly summarize each chapter, say any particularly
+interesting things I learned, and &lt;strong&gt;in bold tell any recommendations
+to our team&lt;/strong&gt; based on the chapter contents.&lt;/p&gt;
+&lt;section id="introduction"&gt;
+&lt;h2&gt;1 Introduction&lt;/h2&gt;
+&lt;p&gt;This chapter talks about the goals of the book and the education of
+engineers in general.  For example, it talks about how accrediting
+organizations for universities have tried to define what should be
+part of various curriculum at different levels: bachelors (4-year
+degree) level, masters, and professional experience.  These can be
+defined in terms of Blooms Taxonomy levels, for example.&lt;/p&gt;
+&lt;p&gt;My main take-aways are about how there are people who think about the
+skills which should be learned, a lot like some people have tried to
+define RSE training programs.  The most notable thing for me is how
+plenty of the skills are only learned by professional experience after
+graduation.  Somehow, this matches with my feeling: I don’t have a
+direct desire to make a RSE undergraduate curriculum, but people can
+learn basic skills of computational science during a variety of
+undergraduate curricula.  I am currently more focused on the practical
+training after becoming a computational researcher or starting a RSE
+job.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I would now want to be more involved in RSE curriculum learning
+goals, but not too much.  This chapter gave me lots of inspiration for
+how to onboard future research engineers to our team, especially those
+who join at a more junior level than our current staff.  I think the
+hardest part isn’t so much about basic skills, but how to work in a
+team to whose mission is supporting science.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="background-and-history-of-the-profession"&gt;
+&lt;h2&gt;2 Background and History of the Profession&lt;/h2&gt;
+&lt;p&gt;This chapter gives a history of civil engineering.  “Civil” originally
+meant as opposed to military, though now it means construction.
+Before modern times, there wasn’t a distinction between architects and
+engineers, or military and civil engineers.  There were just engineers
+who did it all.  The engineering profession came about because
+construction became more complex during the industrial revolution -
+more specialization was needed.  There is a lesson for RSEs here:
+computational science has become that complex that everything a person
+needs can’t be included in every undergraduate program.&lt;/p&gt;
+&lt;p&gt;The book mentions how the earliest engineering projects in Mesopotamia
+don’t survive, because they didn’t have many stones, or fuel for
+firing bricks, that could create long-lasting structures.  There’s a
+metaphor to research software which is lost to time because it wasn’t
+made sustainable enough because the developers didn’t use the right
+tools.&lt;/p&gt;
+&lt;p&gt;These days, there is advanced engineering education with a strong
+scientific basis and many career paths.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;This section makes me feel good about my architects vs engineers
+metaphor and gives me some new ideas to add to the metaphor.  We
+should emphasize that advancing technology means that more career
+specialization is needed.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="ethics"&gt;
+&lt;h2&gt;3 Ethics&lt;/h2&gt;
+&lt;p&gt;Engineering ethics is important because bad engineering can harm
+society.  (I forget which chapter I read it in, but somewhere in this
+book it mentioned how in ancient times, if an engineering work killed
+or harmed someone, the engineer would be killed or harmed similarly.
+That’s some real pressure to get it right.)  Different professional
+organizations have their own codes of ethics.  They are divided to
+fundamental principles (fundamental doctrines) and fundamental canons
+(broad principles of conduct).  Common things they include are
+integrity, impartiality, fairness, corruption.&lt;/p&gt;
+&lt;p&gt;This chapter also talks about licensing some (getting a license to
+practice and sign off on projects as the ultimate guarantor).  Imagine
+if academia was so tightly controlled that a professional in research
+integrity had to personally sign off on the scientific rigor and
+reproduciblity on each scientific output (under the actual threat of
+damage and investigation).  Considering the reproduciblity crisis,
+this is a huge gap between the expected rigor of civil engineering and
+academic publishing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;It’s appealing to think of formalizing a RSE code of ethics,
+licensing, and signing off on results.  In practice, though, I think
+the harm we can do is much smaller and we can’t justify being as
+strict - the risk reduction isn’t worth the slowdown.  Academia has
+plenty of ethical issues, and those should be addressed within
+academia first (not as a separate RSE solution).&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="professional-engagement"&gt;
+&lt;h2&gt;4 Professional Engagement&lt;/h2&gt;
+&lt;p&gt;A lot of this chapter is about defining work and negotiating
+contracts, and different forms of project organization: for example,
+is the designer the same as the builder?  Are they part of the same
+contract or different contracts?  What are the different cost
+structures and selection criteria?&lt;/p&gt;
+&lt;p&gt;There’s a good lesson here about design-bid-build (designing and
+building done by separate parties with separate agreements with the
+owner) vs design-build (one organization designs and builds).  There
+are plenty of places in science support where one organization gives
+advice (for free) on how to do something, but doesn’t help to do the
+actual task.  This is like design-bid-build and the “builders” (either
+within the original research group, someone they hire, or RSEs) may
+not be in a good position to implement that advice independently.
+&lt;em&gt;Our RSE team is more like design-build: we give advice, and we can
+implement it.&lt;/em&gt; The outcome is much better overall.&lt;/p&gt;
+&lt;p&gt;There’s plenty about writing proposals (key points: don’t forget to
+understand the problem, client requirements, alternatives, and other
+assistance) and contracts.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;In our team, we could spend more time at the beginning of projects
+making sure that the scope of work and expected final state is well
+understood at the beginning - some of our projects are ad-hoc now, often
+diving in without fully understanding the results.  We shouldn’t
+become too strict, though: unlike civil engineering, research needs
+to be far more agile.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We should learn how to write a better project plan (to confirm with
+the customer) that is also as short and has the least waste.  Learn
+how to narrow down to the customer’s goals more quickly (which is
+harder for us since computing is much more diverse in tools than civil
+engineering).&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="the-engineer-s-role-in-project-development"&gt;
+&lt;h2&gt;5 The Engineer’s Role in Project Development&lt;/h2&gt;
+&lt;p&gt;This chapter talks about how the client, architects, civil engineers,
+and contractors (builders) relate.  Design is split into schematic
+design (the broad details and vision), design development (making it
+more concrete), and finally construction documents (what a contractor
+can build).  A collaborative design process (client, architect,
+engineer) is very important.&lt;/p&gt;
+&lt;p&gt;The predesign process results in a “Statement of need”, which allows
+the client to internally approve the project to go forward.  This
+states the problem, but not the solution.  The sooner the needs are
+known, the more efficient the project will be.  Coming up with the
+statement of need is itself an art and requires a detailed
+understanding of the clients needs and application of engineering
+thinking.  &lt;em&gt;The engineers give the statement of need, as the have
+developed it, back to the client.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The design phase has various checkpoints different fractions of the
+way through.  Engineers can help the owner during the bid phase, help
+supervise construction, and can help prepare operations and
+maintenance plans.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;A good thing about our RSE team is that we know the people we serve.
+We can easily know what people need (even if they don’t know) without
+an excessive amount of preparation, and work agile-y from there.  We
+could do better about clarifying the statements of needs before we go
+off and start working, though.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="what-engineers-deliver"&gt;
+&lt;h2&gt;6 What Engineers Deliver&lt;/h2&gt;
+&lt;p&gt;This chapter talks about the end product of engineering work.  Unlike
+in our RSE team, where we build things ourselves, in civil engineering
+the engineer usually delivers design documents, which someone else
+(the contractor) will build.  Of course, there is engineering
+supervision during the building and so on.  The end result of the
+engineering work is various contract documents, such as drawing,
+technical specifications, modifications to these, etc.  Not a
+building.&lt;/p&gt;
+&lt;p&gt;Mostly, this chapter is too specific to apply to us, so I won’t go
+into details.  Most of our projects don’t have a separate engineering
+and building phase, and we don’t have extensive design document
+deliverables.  (We work in the design-build system, where we directly
+implement the end product.  And our software projects are usually
+small enough and agile enough that we don’t make extensive design
+documents, for better or for worse.)&lt;/p&gt;
+&lt;p&gt;However, it’s worth pointing out that a construction (design) isn’t
+the only thing that engineers deliver.  They can deliver reports,
+calculations, help with permitting, consulting to an owner about
+dealing with other engineers/contractors, and more.  These are all
+things that we as RSEs can do.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We should keep in mind that RSEs can deliver more than just
+software.  Projects and research have many components, and engineers
+can help with all of them.  We can especially help with engineering
+thinking during permitting, proposals, coming up with research
+possibilities, and even sometimes analysis.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="executing-a-professional-commissionproject-management"&gt;
+&lt;h2&gt;7 Executing a Professional Commission—Project Management&lt;/h2&gt;
+&lt;p&gt;This chapter is about project management.  Why do projects need
+management?  Because they can get so complex.  There’s a good 2D
+typology of {assembly, system, array} vs {low-tech, medium-tech,
+high-tech, and super-high-tech}.  The first axis is for how complex
+hierarchically the thing is, the second axis defines how available and
+proven it is.  The higher up the axes, the more likely it is to need
+dedicated coordination.  Projects are getting more about diverse
+things working together in complex manners, instead of simple
+breakdowns to various specialists.&lt;/p&gt;
+&lt;p&gt;What’s a project?  Something to accomplish a goal in a fixed time
+period (otherwise it’s operations).  The project triangle is scope,
+budget, schedule.  It’s a trade-off between them and all three have to
+be part of the negotiation with the client.&lt;/p&gt;
+&lt;p&gt;Who works on projects?  The owner (client), designer (decides what to
+do), and builder (does it).  Often times other organizations give
+advice on design without helping with the building. In a team, if’s
+the same project, all must work for the same customer and goal.  In
+most of our RSE projects, the designer and builder are the same, but
+we do often help come up with an idea and leave it to the owner to
+build it themselves (“help you do it”).&lt;/p&gt;
+&lt;p&gt;Projects have phases.  In civil engineering projects, the phases
+include definition (predesign, 10% design), design phase (schematic
+design, design development, construction documents), 100% design,
+release to construction.  Each of these has a checkpoint where the
+design should be reviewed with the owner (and presumably others
+internally) to make sure it’s on the right track.&lt;/p&gt;
+&lt;p&gt;Estimates are very important.  Estimates should be made as soon as
+possible but will be refined over time.  Make sure to update them.
+Prevent surprises.&lt;/p&gt;
+&lt;p&gt;A project management plan outlines how the project will be organized,
+how everyone works together, and a whole lot of other important
+reference information.  It’s important to have all this reference
+information in one place to keep everyone on the same page.&lt;/p&gt;
+&lt;p&gt;The role of a project manager is to basically take ultimate
+responsibility for everything: ensure the project is done correctly,
+ethically, client relationship, finance, business development, etc.
+There is also a design leader who is responsible for the actual work
+(who can be different from the project manager).&lt;/p&gt;
+&lt;p&gt;There is various discussion about tracking the progress of projects,
+but for us RSEs we have good systems using repository hosting services
+so I won’t go into that.&lt;/p&gt;
+&lt;p&gt;Risk needs to be managed within projects: at least mentioned and
+acknowledged, preferably allocated to the different parties.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Realistically, most of our projects are too small to need a project
+manager for their day-to-day work: there may be one RSE working, with
+one or a few academics.  If a single project needs a dedicated
+manager, it’s probably of the academic side of the work.  At our size,
+I manage the team itself, and I think the RSE staff can mostly the
+work within the projects (more or less independently).  However, there
+are many considerations which we can learn from, such as structuring
+the various phases with checkpoints and having a written management
+plan that also discusses how the project itself works.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The {scope, budget, schedule} triangle, risks, and project
+management plan should more frequently be discussed at the start of
+our projects.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="permitting"&gt;
+&lt;h2&gt;8 Permitting&lt;/h2&gt;
+&lt;p&gt;This chapter is about environmental permitting.  It talks about how
+engineers dislike the process, think they know better and should be
+independent, and on top of that have little training in managing
+permitting.  Sound like academics?  A lot of the advice applies to
+academia too.&lt;/p&gt;
+&lt;p&gt;Accept that permits exist for a reason (before them, there was
+widespread societal harm).  Respect the agency staff implementing
+permits: they are professionals and usually engineers.  If you do your
+research first, understand the requirements, read the instructions,
+etc. it will be much faster.  Initiate the permit process early.  Make
+permits a first-order task, not a backend process (dedicated
+permitting managers, consider permits from the bidding phase, engage
+with the agencies, etc.).&lt;/p&gt;
+&lt;p&gt;To streamline permits, 1) prepare a combined project description with
+all the basic information, which can be reused among each permit.  2)
+don’t skip step one.  3) Use this in each application.  This also
+forces the advance planning, and it’s OK if the project description
+get updated.&lt;/p&gt;
+&lt;p&gt;However, I do have thoughts about this and our university’s processes.
+There are different aspects of “permits” in academics (ethics,
+security, etc.), and all the processes are created internally, and
+still you have to go repeating things over and over again for every
+single form.  The “one combined project description” strategy doesn’t
+work.  Also, the ideal situation of “permit staff are experienced
+engineers” isn’t as true within our university environment (see
+below).&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our university should consider how to unify processes so that
+materials can be reused much more than they can now (in line with the
+recommendation of a unified project description for all permits).
+Right now, there are many different processes, not unified and with a
+lot of repeat work.  Also, unlike the description of agency staff
+being experienced engineers, in our university the staff are often
+lawyers or similar, thus they can’t engage with advising on the actual
+research projects.  If we hired more former academics/researchers to
+be involved in permitting, it could go much more smoothly.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="the-client-relationship-and-business-development"&gt;
+&lt;h2&gt;9 The Client Relationship and Business Development&lt;/h2&gt;
+&lt;p&gt;This chapter is about building relationships with clients and getting
+work.  Engineering consulting firms are always looking for clients,
+but luckily our RSE team is an internal team thus we have built-in
+customers and funding.  Still, we need to keep our customers (academic
+researcher) happy so they come back and give us good word-of-mouth
+references.&lt;/p&gt;
+&lt;p&gt;The relationship is built on trust and commitment.  It’s mediated by
+communication.  That should result in understanding what the customer
+needs, meeting their needs (scope/budget/schedule triangle) with
+quality.  And this should be done with ethics and integrity.  It’s
+important to manage client expectations and not promise too much.&lt;/p&gt;
+&lt;p&gt;It’s important to keep customers: easier to keep happy customers than
+to find new ones.  However, you should also be careful about what
+customers you choose: make sure you choose ones that match what you
+can do and set the expectations well.  Networking, volunteering, and
+other engagement helps to find customers.&lt;/p&gt;
+&lt;p&gt;Then there’s business development, which is the work needed to find
+new business.  All employees do this to some degree, but it larger
+companies there may be some dedicated to it.  You find leads, do
+background research, decide if you want to bid, and prepare the bid,
+and hopefully get selected.  Coming back to the beginning, since we
+are an internal team, we are often selected by default since we are
+“free” or “at-cost”.  But we shouldn’t forget the work needed to
+maintaining these customer relationships.&lt;/p&gt;
+&lt;p&gt;Conflict management with customers: collaboration, compromise,
+co-existence, capitulation.&lt;/p&gt;
+&lt;p&gt;Our team is viewed excellently by our customers, but we cheat since we
+work for free or below-cost as part of research support.  &lt;strong&gt;Still, we
+should all keep in mind the customer relationships.  We could be a bit
+more picky about projects and make sure the expectations are set at
+the beginning and not promise too much.  We should engage with the
+broader scientific and user community to make scientific computing and
+our services better known (rather than focus only on direct
+marketing).&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="leadership"&gt;
+&lt;h2&gt;10 Leadership&lt;/h2&gt;
+&lt;p&gt;This chapter was a bit more about business leadership, rather than
+project management discussed earlier.  This proposes that leadership
+quadrants are (business strategy) (business economics), (technology),
+and (public affairs/marketing).  Leaders plan, organize, lead, and
+control.  Plenty more has been written about leadership outside of
+this book and I don’t think there’s much more insight here.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;As our team gets bigger, I need to think more about how it’s led and
+how I can make sure everyone can have their voices heard.  I think
+I’ve been doing better here lately, and think that many of these broad
+visions things will occupy the next months or years of my time.  We
+can start thinking of different types of leaders within the team.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="legal-aspects-of-professional-practice"&gt;
+&lt;h2&gt;11 Legal Aspects of Professional Practice&lt;/h2&gt;
+&lt;p&gt;This chapter goes into details about the effects the legal system has
+on professional engineers.  We are fortunate to not have to worry
+about that too much, being focused on research with less stakes.&lt;/p&gt;
+&lt;p&gt;There are some good thoughts about concepts such as negligence,
+liability and warranties.&lt;/p&gt;
+&lt;p&gt;It talks a lot about engineering contracts and problematic contract
+terms.  It also talks about the main contract types, design-bid-build
+and design-build, but there are even more (consultant to the client
+separate from separate designer/builder, multiple prime, construction
+manager, etc).  Then different types of contract, fixed price, cost
+reimbursable, etc.&lt;/p&gt;
+&lt;p&gt;Then there is risk management.  You want good notes on everything to
+prevent “you never said that…” situations.  One particular point is
+that it’s good to think about risk allocation (who bears the risk)
+before you start, and it’s usually best that risk is borne by those
+most able to minimize it or be aware of it.  Then a bit about
+insurance.  Then there’s stuff about dispute resolution (litigation,
+alternative dispute resolution).  Then anti-discrimination laws.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;We are fortunate that we work within one organization, so that we
+don’t have to deal with most of these legal aspects.  However, there
+are good lessons about keeping good notes (which can help conflict
+resolution later) and risk management (make sure it’s discussed).
+Finally, it’s worth thinking about the (internal) formal
+relationships: are we design-build.  Or design-consult?  Or is it a
+multi-party relationship?  This sets the expectations.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="managing-the-civil-engineering-enterprise"&gt;
+&lt;h2&gt;12 Managing the Civil Engineering Enterprise&lt;/h2&gt;
+&lt;p&gt;This chapter is about finances.  In addition to asking “can we do
+it?”, engineering firms should ask “should we do it?” with a go/no-go
+decision process.  This can ask how well the work is understood,
+client’s expectations, degree of profitability, and risk factors.&lt;/p&gt;
+&lt;p&gt;There is plenty about costs of labor, overheads, multiplies, financial
+reporting.&lt;/p&gt;
+&lt;p&gt;It also talks about human resources: who’s available for what
+projects?   What’s their costs?  What’s their career path and targets?&lt;/p&gt;
+&lt;p&gt;Then there is business development: finding clients and all, which
+includes marketing and being involved in the community.&lt;/p&gt;
+&lt;p&gt;Our team is fortunate to not have to worry about per-project profit,
+since we are also paid to maintain overall research quality.
+&lt;strong&gt;However, I think a “go/no-go decision” would be useful to us as a
+way to make sure we understand everything before we dive in (even if
+we always want to give some sort of “go”, even if it’s smaller than
+requested).  And outreach doesn’t have to just be marketing for
+clients but can be general engagement with the community.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="communicating-as-a-professional-engineer"&gt;
+&lt;h2&gt;13 Communicating as a Professional Engineer&lt;/h2&gt;
+&lt;p&gt;The chapter starts with a good general rule: “no surprises!”.&lt;/p&gt;
+&lt;p&gt;Communication isn’t just sending a message, but the reception and
+understanding.  When communication is important, the sender should ask
+for an acknowledgment (preferably including a summary as they
+understand it).  When things are important (for example, spending huge
+amounts to construct something), there is no room for mistake, and it
+is the engineer’s responsibility (not the client) to make sure that
+communication goes through.  Don’t forget the importance of
+nonverbal/nonwritten communication (tone of voice, body language,
+etc.)  Efficient communication is needed to stay profitable (it saves
+time and improves the work).&lt;/p&gt;
+&lt;p&gt;It talks about how to use email.  I guess since the book was written,
+this is now much more known, but there are some good points: be clean,
+In the last 12 years this is sort of taken for granted.  Use good
+subject lines.&lt;/p&gt;
+&lt;p&gt;Conflict resolution was also included here.  Conflict resolution
+strategies include collaboration, compromise, coexistence, and
+capitulation.&lt;/p&gt;
+&lt;p&gt;It then talks about report formats and so on.  As described in
+previous sections, engineers have to produce lots of proposals,
+responses to proposals, plans, etc. that aren’t in use by our team.
+In some ways, that’s good for us, but there are some places where
+better writing and planning could help us.  It’s good to make sure to
+include executive summaries at the beginning and recommendations at
+the end of each document (most people don’t have time to dig through
+to find this or figure out what’s going on).&lt;/p&gt;
+&lt;p&gt;One thing that struck me is how formal engineering communication can
+be (with the idea that, you have to be very sure that you don’t get
+miscommunication or people remembering things differently).  For
+example, it showed example of “phone call” and “meeting” forms, to
+easily make written records of verbal interactions.  This can prevent
+surprises later.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I think communication should be one of our focus points.  With
+users, we should make sure there are good records of what we discuss
+and the plans we make.  We now have simultaneously editable web
+documents, which is extremely powerful compared to 2011, and we should
+use this more for project communication.  We should remember that time
+is limited and communication needs to be clear and direct.  These
+days, when I send emails, I always start with what I’m asking, and
+then go into background.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Having “meeting record forms” is overkill, but I do think there are
+some good lessons about being more clear in our communication with our
+users.  Perhaps we can better use the online docs and continually add
+notes of each meeting/interaction there.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I have lots of other thoughts on communication from my other interest
+in learning about accidents, but I’ll talk about those elsewhere.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="having-a-life"&gt;
+&lt;h2&gt;14 Having a Life&lt;/h2&gt;
+&lt;p&gt;This chapter talked about work-life balance.  One example it gave is
+that someone observed that, of their company’s executives, most were
+divorced and hand to pay more than half their salaries to their former
+partners.  The executives’ take-home salary was less than a starting
+engineer.  The point is, maintain work life balance, avoid burnout,
+etc. or else you will pay far more later.&lt;/p&gt;
+&lt;p&gt;It gives the key components as mind, body (eat, sleep, exercise), and
+spirit (feelings and thoughts).  For the mind, it’s important to
+manage stress properly.&lt;/p&gt;
+&lt;p&gt;I’m happy with how our team works together so that everyone can
+disconnect during vacation and work the right number of hours, but of
+course a lot of that is Finnish working culture.  (I was entertained
+by the irony that as I was reading this chapter, I was technically on
+vacation.)  The academic system doesn’t contribute to work-life
+balance, and I hope that better RSE support of academics will help the
+burn-out problem some, by making the work less overwhelming for
+individuals.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One of the best parts of our team is we get academic-quality people
+but provide a much better work-life balance.  We should make sure this
+balance continues in the future, and properly manage projects to
+prevent them from affecting our lives.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="globalization"&gt;
+&lt;h2&gt;15 Globalization&lt;/h2&gt;
+&lt;p&gt;Globalization is the reduction of barriers of mobility of goods,
+capital, services, and labor.  It’s more than just mobility: it is
+mobility, simultaneity (things are available everywhere at once with
+less time lag), bypass (multiple choices and being able to bypass
+current structures), pluralism (not just one center dominating
+things).&lt;/p&gt;
+&lt;p&gt;Interestingly, this chapter is the one that talks about the effects of
+climate change (with the next being more about lifecycle cost
+analysis).  Among many things that don’t need to be restarted here, it
+talks about how better project management and teamwork will be needed
+to survive in the 21st century.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I don’t have any clever take-aways for us from this chapter.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="sustainability"&gt;
+&lt;h2&gt;16 Sustainability&lt;/h2&gt;
+&lt;p&gt;I guess compared to 2011, we now think much more about sustainability.
+Many things in this chapter are now well-known, or at least you
+probably won’t get much benefit from me repeating them.  Most of the
+chapter is about design for sustainability.&lt;/p&gt;
+&lt;p&gt;It estimates that construction costs can be 5-15% of a facility’s
+lifecycle cost, design 1%, and operations and renovations most of the
+rest.  Better design is the best way to reduce overall cost (and
+environmental impact).  Likewise for software, more work at the
+beginning can result in something much more usable later.  Systems
+thinking is needed to improve sustainability.  Lifecycle costs
+analysis include design/construction cost, maintenance costs, and
+residual value at the end of the study period.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RSE already uses software sustainability as a marketing point.  We
+shouldn’t forget this when talking about our benefits.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="emerging-technologies"&gt;
+&lt;h2&gt;17 Emerging Technologies&lt;/h2&gt;
+&lt;p&gt;This chapter isn’t just about new technology, but how the way
+technology and all interacts is getting more complicated itself.  How
+it’s going from “individual processes computerized/automated” to
+“whole systems computerized/automated”.  A lot of this is about data
+exchange between systems and having a complete, up-to-date, view of
+the designs and projects.&lt;/p&gt;
+&lt;p&gt;Another thing it talks about is “integrated project delivery”,
+basically different teams working together more closely than
+otherwise.  Instead of relationships defined by contracts and
+responsibilities, a combined team is formed.&lt;/p&gt;
+&lt;p&gt;It concludes a bit thinking about “engineering thinking”: how to use
+knowledge to make new innovation, and how new innovation makes more
+new things possible.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Our RSE team by definition is often helping others be on the
+forefront of emerging technology, and we are often thinking about how
+we should adapt to the next thing.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/rse-lessons-from-civil-engineering/"/>
+    <summary>I have had a long-running metaphor of {academic researchers, research
+software engineers} being like {architects, structural engineers}.
+The basic idea is that coming up with interesting and worthwhile
+ideas/designs is a distinct field from giving ideas “structural
+integrity” (=reproduciblity and technical rigor).</summary>
+    <category term="rse" label="rse"/>
+    <published>2025-07-31T00:00:00+00:00</published>
+  </entry>
+</feed>

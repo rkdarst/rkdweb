@@ -1,0 +1,560 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <id>https://rkd.zgib.net/</id>
+  <title>Blog - Posts in opinion</title>
+  <updated>2026-09-23T07:09:04.189509+00:00</updated>
+  <link href="https://rkd.zgib.net/"/>
+  <link href="https://rkd.zgib.net/blog/category/opinion/atom.xml" rel="self"/>
+  <generator uri="https://ablog.readthedocs.io/" version="0.11.13">ABlog</generator>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/chat-news-channels/</id>
+    <title>News channels in chat</title>
+    <updated>2026-07-31T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="news-channels-in-chat"&gt;
+
+&lt;p&gt;I hope we had a low threshold for sharing anything in chat, as long as
+the sharer puts a bit of effort into a summary.  In the CodeRefinery
+chat, we’ve thought about how to build more interaction in our chat
+(even though, compared to some orgs, we think we have quite a bit.
+Perhaps that’s the &lt;a class="reference internal" href="../../2026/zulip-guide/"&gt;&lt;span class="doc"&gt;power of Zulip&lt;/span&gt;&lt;/a&gt;).  My proposal is &lt;strong&gt;“news
+channels”&lt;/strong&gt;.  The goal is like a blog or news aggregator, with the
+similar goal of educating ourselves and getting to know each other
+better.&lt;/p&gt;
+&lt;p&gt;I like seeing a wide variety of links, but time is limited.  Not
+everyone can read every link posted, so I hope that people put their
+human brain into a summary (suitable for the readers) that is
+educational even if read alone.  Not clickbait, and not “read the link
+for more”.&lt;/p&gt;
+&lt;p&gt;The basic idea is that we people want to blog more, but that’s a lot
+of work.  It’s lower threshold to declare some chat channels to be
+“blog-like” and encourage even off-topic things to go there.
+Hopefully it leads to more blogging, too.&lt;/p&gt;
+&lt;p&gt;For example, I propose the CodeRefinery chat declare these as news
+channels:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;#general&lt;/span&gt;&lt;/code&gt;: News channel for anything remotely related to scientific
+computing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;#random&lt;/span&gt;&lt;/code&gt;: News channel for anything else.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;“News channel” does not mean that channel is for only news posts, or
+for things that could be blog post.  It means “for things you might
+want to tell others about”.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;This post is my personal opinion, but will be updated with the
+practices of the organizations I work with (CodeRefinery, Aalto
+Scientific Computing).  You are welcome to copy and modify this.  This
+should not be used to tell people they are doing something wrong, but
+only to encourage new interaction.  You don’t have to do what is here.&lt;/em&gt;&lt;/p&gt;
+&lt;section id="what-is-clickbait"&gt;
+&lt;h2&gt;What is clickbait?&lt;/h2&gt;
+&lt;p&gt;Philosophy: Clickbait (according to wikipedia) “is designed to attract
+attention and to entice users to follow (“click”) that link”
+&lt;span class="inote" role="button" aria-expanded="false" aria-label="Inline note: note - click to expand" onclick="this.classList.toggle('expanded'); this.setAttribute('aria-expanded', this.classList.contains('expanded'));"&gt;[note&lt;span class="inote-content"&gt;: normal clickbait is often misleading or sensationalized, and that’s not a problem in our chats.&lt;/span&gt;]&lt;/span&gt;.  My main consideration is you
+need to click through to know the actual story.&lt;/p&gt;
+&lt;p&gt;To me, anti-clickbait means putting the main message as early as
+possible so that one can stop reading as early as they want and still
+get something:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Read the first sentence, get a 1-sentence understanding of the
+topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Read the first paragraph, get a 1-paragraph understanding of the
+topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Read the first section, get a 1-section understanding of the topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Apply this recursively at every level.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This requires more thought in writing, but is a service for the
+reader.  I think we should strive more towards this &lt;span class="inote" role="button" aria-expanded="false" aria-label="Inline note: note - click to expand" onclick="this.classList.toggle('expanded'); this.setAttribute('aria-expanded', this.classList.contains('expanded'));"&gt;[note&lt;span class="inote-content"&gt;: Does this post meet these criteria? I usually try to, but I don’t always manage.&lt;/span&gt;]&lt;/span&gt;.  It’s related to &lt;a class="reference external" href="https://en.wikipedia.org/wiki/BLUF_(communication)"&gt;Bottom-line Up Front
+communication&lt;/a&gt;,
+from which I got some of these ideas.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="basics"&gt;
+&lt;h2&gt;Basics&lt;/h2&gt;
+&lt;p&gt;This is my proposal:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;News channels are non-work channels, and you don’t have to be
+subscribed.  Don’t expect all your colleagues to be subscribed.  If
+you have an announcement for a team, make sure you mention it in a
+work channel, too.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can post anything within the scope, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Link to other content you have found interesting.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Link to you blog posts or things you have created.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Pictures you have taken.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Original ideas that might become blog posts later.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Things you have learned (doesn’t have to have a link), watched,
+etc.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;A question or thought you have (including something you might blog
+about later).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Put some human effort into describing it (see below).  Please no
+bare or low-context links.  Yes, people can read things themselves,
+but there’s too much.  Our networks helps filter summaries.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;There’s not a limit (yet) on the amount you can post, but in
+general, the more you post, the more human effort you should put
+into describing things.  People can independently subscribe to
+wherever you get material from if they want everything from there.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Follow-up discussion on any content is encouraged, but not required.
+Don’t get discouraged if no one reacts.  It might mean your
+description is good enough.  Do react to interesting things to
+encourage more of that type of thing.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You are especially encouraged to post anything new you create, no
+matter how small it is.  This is how we learn of each other’s skills.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="how-to"&gt;
+&lt;h2&gt;How-to&lt;/h2&gt;
+&lt;p&gt;Further thoughts, adapt as is appropriate:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Create a new topic for each new thing.  Don’t worry about making too
+many topics, but you can always reply with more stuff for relevant
+old topics if it’s relevant.  Topics are the way someone quickly
+filters through it, and remember they will “Mark all as read” once
+they have browsed enough.  &lt;strong&gt;People may look through their Zulipchat
+inbox at topics and decide what to click or not, so make it easy for
+someone to know if it’s relevant to their interests.&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You can use a detailed topic description, for example:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;“TIL: uv for python package installation”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“OpenAI has acquired Astral (the company behind uv)”&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“venv-apptainer: new script for containing virtual environments”&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Include a description&lt;/strong&gt; - not just a bare link or wall of text.
+&lt;strong&gt;You should put some human effort into the description, even if
+only one sentence.  If you can do this, we will be happy with
+whatever it is.&lt;/strong&gt;  The description should be enough for someone to
+learn some bare basics if they don’t read further (and know if they
+should read more).&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;At minimum, an initial description that stands alone and provides
+some education.  &lt;strong&gt;Not just clickbait, but a real description.&lt;/strong&gt;  Can
+be anywhere from a sentence or two, to a paragraph.  People have a
+limited time and attention, so write for that.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;You are welcome to go as far in depth as you would like after
+that… long info is OK.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Especially consider giving your own thoughts on the matter, if
+it’s by someone else.  Do you agree with it?  Disagree?  Have
+further ideas?  These kind of reviews make links far more
+interesting, because many people don’t have the full context to
+understand things.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Even if you wrote something elsewhere and you are linking to it,
+give a summary in the chat.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A reminder: Do not use this blog post to tell people they are doing
+something wrong.  Don’t think the barrier is too high.  Don’t assume
+this post is the best practices.  We want you to do your best, and
+read what others do, and everyone to continually improve.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="the-benefits"&gt;
+&lt;h2&gt;The benefits?&lt;/h2&gt;
+&lt;p&gt;Does this seem like a lot of work?  Well, yeah, but it’s the trade-off
+to engagement.  In the age of generated content, we want human effort.
+&lt;strong&gt;Look at it this way: thinking about, writing, and reading these
+summaries is good general communication practice with people outside
+your field.&lt;/strong&gt;&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/chat-news-channels/"/>
+    <summary>I hope we had a low threshold for sharing anything in chat, as long as
+the sharer puts a bit of effort into a summary.  In the CodeRefinery
+chat, we’ve thought about how to build more interaction in our chat
+(even though, compared to some orgs, we think we have quite a bit.
+Perhaps that’s the power of Zulip).  My proposal is “news
+channels”.  The goal is like a blog or news aggregator, with the
+similar goal of educating ourselves and getting to know each other
+better.</summary>
+    <published>2026-07-31T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/wiki-vs-code-rules/</id>
+    <title>“Code” vs “wiki” (vs “book”) rules for project contributions</title>
+    <updated>2026-07-20T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="code-vs-wiki-vs-book-rules-for-project-contributions"&gt;
+
+&lt;p&gt;I have sometimes said the phrases “wiki rules”. or “cade rules” about
+contributing to a project.  What does this mean?  Roughly, “code
+rules” is being careful and making sure everything is correct before
+finalizing a contribution.  Wiki rules is just doing something and
+letting it get improved later.  Both ways have their place, and I
+think sometimes we can get so obsessed with being “right” that we
+forget to get stuff done.  I’ll discuss below.&lt;/p&gt;
+&lt;section id="code-rules"&gt;
+&lt;h2&gt;Code rules&lt;/h2&gt;
+&lt;p&gt;This comes from contributing to code projects, where there are often
+standards for a review before merging anything, exhaustive tests to
+make sure that everything new is correct, and there should be no
+possibility of regression.  The basic philosophy is that an error
+anywhere can break things everywhere, so try to prevent errors from
+making it into the project.&lt;/p&gt;
+&lt;p&gt;For stable, mature projects , this makes sense.  It can extend to
+non-code things, too, when the expectation is “do nothing wrong”: say,
+you are organizing a big event and you need to have a consistent
+message to attendees for everything you publish.&lt;/p&gt;
+&lt;p&gt;Code rules requires enough time to review and fix things up.  It could
+be done without contribution guidelines, but then you spend more time
+reviewing and it can have a demotivation problem, if the review is
+perceived as too harsh.  With extensive contribution guidelines, the
+barrier to contribution becomes higher.&lt;/p&gt;
+&lt;p&gt;Examples of this include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;The general idea that one should make a pull request, get it
+reviewed, and if it’s OK, then merge it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;CodeRefinery would sometimes pedantically teach that all code should
+be reviewed, even if you are the main person of a project - since it
+improves quality and teaches others what is going on.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Look at most mature project’s contribution guidelines and they are
+usually somewhat specific and include reviews.  At a big scale, this
+is needed.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://numpy.org/doc/stable/dev/index.html"&gt;Numpy contribution
+guidelines&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Extensive &lt;a class="reference external" href="https://book.the-turing-way.org/community-handbook/community-handbook/"&gt;contribution guidelines for the book “The Turing
+Way”&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="wiki-rules"&gt;
+&lt;h2&gt;Wiki rules&lt;/h2&gt;
+&lt;p&gt;On the other hand, wikis usually operate on the idea of “press ahead”,
+make your change directly, and if so anything isn’t perfect, it will
+be iteratively improved later.  If people disagree, there are ways to
+resolve conflicts later on.  There are few, if any, checks before
+committing to the history.  This doesn’t mean there aren’t standards
+and expectations, but there is tolerance if new contributors don’t do
+it just right in their contributions.&lt;/p&gt;
+&lt;p&gt;For a new, rapidly changing project with few contributors, this can
+make sense.  If there are few contributors who communicate a lot, it is
+easy.  If there are many contributors, there need to be good standards
+(as there is some hope of convergence) and enough contributors to
+converge to those standards.  Wiki rules requires a strong mental
+model that everyone shares.&lt;/p&gt;
+&lt;p&gt;Disadvantages include the time needed to fix things up (or even notice
+the wrong thing…).  It can also be demotivating if someone goes and
+makes a big change, and it gets iterated to significantly change it.
+(Sound similar to code rules, right?)&lt;/p&gt;
+&lt;p&gt;Examples of this include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://en.wikipedia.org/wiki/Wikipedia:Be_bold"&gt;Wikipedia’s “Be Bold” guide page&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;[According to my memory,] The OpenStreetMap wiki (contributor
+instructions) used to have a page “Press Ahead” with a message to
+just add things to the best of your ability and it will be improved
+later.  I can’t currently find the page, I presume because there’s
+enough maturity that stability is more important now.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="new-one-book-rules"&gt;
+&lt;h2&gt;New one: book rules&lt;/h2&gt;
+&lt;p&gt;Added 2026-09-14: There is one more possibility, “book rules”, where
+there is an author who is taking overall editorial control, and there
+are usually not direct changes by others.  There may be suggestions,
+by others, but usually one person listens to all the suggestions,
+decides the direction, and chooses the final wording.  Any review may
+end up essentially re-writing it to get the exact phrasing the main
+author wants.&lt;/p&gt;
+&lt;p&gt;In this, contributions are of the form of ideas and suggestions
+without exact wording being provided.&lt;/p&gt;
+&lt;p&gt;Examples of this might include:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Opinion pieces such as &lt;a class="reference external" href="https://rkdarst.github.io/thoughts-on-academic-supervising/"&gt;my notes for academic
+supervisors&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;I guess it all comes down to “don’t let the perfect become the enemy
+of the good”.  When there are few people and you communicate often,
+you can iterate and improve.  If you get large and stable (or people
+depend on complete correctness), then maybe it’s time to switch to
+code rules.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I think the difference is not exactly “are there strict contribution
+guidelines?”.  The difference is if someone should contribute
+something possibly wrong and let it be fixed later, or strict
+pre-review.&lt;/strong&gt;  Every project needs to find their balance of amount of
+contribution guidelines, amount of prior review, amount of other
+contribution, and wiki/code rules.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="examples"&gt;
+&lt;h2&gt;Examples&lt;/h2&gt;
+&lt;p&gt;A project could have an in-person meeting to make a plan, then switch
+to wiki rules to implement the plan, then a round of review and
+discussion followed by more iteration.  After it has stabilized,
+moves towards code rules.&lt;/p&gt;
+&lt;p&gt;Early in planning a conference, we use wiki rules to combine all our
+ideas onto the website (before anyone even sees the site) and refine
+them, aggressively narrowing down.  To avoid wasted work, it’s
+“first-draft” or “notes” level work at the beginning if we aren’t sure
+about it.&lt;/p&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/wiki-vs-code-rules/"/>
+    <summary>I have sometimes said the phrases “wiki rules”. or “cade rules” about
+contributing to a project.  What does this mean?  Roughly, “code
+rules” is being careful and making sure everything is correct before
+finalizing a contribution.  Wiki rules is just doing something and
+letting it get improved later.  Both ways have their place, and I
+think sometimes we can get so obsessed with being “right” that we
+forget to get stuff done.  I’ll discuss below.</summary>
+    <published>2026-07-20T00:00:00+00:00</published>
+  </entry>
+  <entry>
+    <id>https://rkd.zgib.net/blog/2026/zulip-guide/</id>
+    <title>Zulipchat guide: managing too much information</title>
+    <updated>2026-06-29T00:00:00+00:00</updated>
+    <author>
+      <name>Richard Darst</name>
+    </author>
+    <content type="html">&lt;section id="zulipchat-guide-managing-too-much-information"&gt;
+
+&lt;p&gt;Zulip is a chat platform (open-source and self-hostable).  I think it
+is very good, but often confusing to newcomers.  This post explains
+how I see it and how I think others can manage all the information.
+This isn’t meant to be a Zulip basics guide.&lt;/p&gt;
+&lt;p&gt;I can’t recommend Zulipchat enough if you want a proper online
+community.  I’m not paid to say this.&lt;/p&gt;
+&lt;section id="the-fundamental-contradiction-of-chats"&gt;
+&lt;h2&gt;The fundamental contradiction of chats&lt;/h2&gt;
+&lt;p&gt;I think it’s important to start with why I believe people have a
+problem with Zulipchat.  It’s because it works.  People use it to
+talk, and it leads to thriving chat communities.  This leads to too
+much information.  It doesn’t lead to a large number of one-to-one or
+group direct messages, but functioning communities.&lt;/p&gt;
+&lt;p&gt;On the other hand, it has good tools to filter things and let you
+focus on what you want.  It takes some getting used to, but it’s
+possible.&lt;/p&gt;
+&lt;p&gt;So, don’t be afraid.  You are joining a community which has decided to
+be a community, and that community is probably here to help you with
+that.  The cost is that you need to manage your time, so read on.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="zulip-basics"&gt;
+&lt;h2&gt;Zulip basics&lt;/h2&gt;
+&lt;p&gt;The main concepts are:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Channels&lt;/strong&gt; (formerly known as “streams”) are the basic organization,
+like in other chat systems.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Topics&lt;/strong&gt; are like email subjects of threads within a channel, which
+have no similar concept in other chat systems.  This is what lets
+someone get a summary of what is going on and manage the flow.  You
+can mention &lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;&amp;#64;topic&lt;/span&gt;&lt;/code&gt; to get just those active in a topic.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Messages&lt;/strong&gt; are as expected, but all messages have both a channel and
+topic.  (These days you can actually send a message without a topic
+and it appears as “&lt;em&gt;general chat&lt;/em&gt;”, but I would recommend avoiding
+this as possible.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Your view can be narrowed to certain channels, topics, or other
+search terms.  There are a wide variety of places to click to do
+this (from almost any view).  Click around and see how it works - it
+will save you lots of time.  If you click on a channel/topic name, it
+narrows to that channel/topic around that message.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you click on actual messages, it opens reply boxes in that topic.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This has two major implications.  First, you have to think a little
+bit before you start to type.  This slows you down by a few seconds,
+but it’s not so hard and worth it to think “what am I talking about
+here?  Is there an existing thread to join?”  But don’t worry too
+much, a quick search is enough.&lt;/p&gt;
+&lt;p&gt;Second, once you have things sorted, you can much more easily filter
+and find what’s important to you.  You can see more of past
+conversations.  If you see a new interesting message, you can click on
+it and see all the past history.  You can get notified for specific
+conversations and hide others.  You can search all topics by using the
+“Filter left sidebar” (this filters channels and direct messages) and
+push enter (this switches to filter by &lt;em&gt;topic&lt;/em&gt; in every channel).&lt;/p&gt;
+&lt;p&gt;As a newcomer, you won’t know what all has happened before, so thus
+may start duplicate topics.  That’s OK!  In all the organizations I am
+part of, there are some people who act as “curators” and organize
+topics, combining or splitting them.  They may combine, split, or
+move yours.  This isn’t bad.  Just chat and let others deal with that.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="notification-levels"&gt;
+&lt;h2&gt;Notification levels&lt;/h2&gt;
+&lt;p&gt;There are three levels of following/notifications:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Following&lt;/strong&gt; where you get notifications (sound/pop-up/email/etc.)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Default&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Muted&lt;/strong&gt; where you don’t even see the messages by default, but if you
+get &amp;#64;-mentioned then you do.  You can then click on the message and see
+the whole topic.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;In your personal settings, there are a variety of settings to make
+yourself auto-follow anything you interact with (send messages to) or
+get mentioned in.&lt;/p&gt;
+&lt;p&gt;Also, &lt;em&gt;every one of these can operate per-channel or per-topic&lt;/em&gt;.  Thus,
+you have lots of flexibility.  (Of course this leads to the paradox of
+choice, where more options decrease happiness).&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="zulip-conventions"&gt;
+&lt;h2&gt;Zulip conventions&lt;/h2&gt;
+&lt;p&gt;My organizations tend to:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Not &amp;#64;-mention people as much as in other places (it can be done when
+you need to, but if you know someone actually follows the chat, they
+can usually find the relevant topics).  People set the auto-follow
+depending on their needs.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Not quote-replying that often, unless it’s not very recent in the
+topic or you want to emphasize it.  People can always click the
+topic and see history, no matter when they see it.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Have fewer channels and rely more on setting topics.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Rely less on private messages.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do make a search for any past topics and re-post to them if it’s
+relevant.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Do rearrange messages after they are sent, as topics diverge and
+converge.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Make new topics frequently, but also split/join topics often when
+they drift.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“Curators” who have been around a while often move/organize topics
+that other people start, with a low threshold (this doesn’t mean
+something went wrong, and it may connect you to older info).  But
+anyone is welcome to do this.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="strategy-if-you-follow-selectively"&gt;
+&lt;h2&gt;Strategy: if you follow selectively&lt;/h2&gt;
+&lt;p&gt;If you are like most people and can’t follow everything, that’s OK.
+When you check chat:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Check your “&lt;strong&gt;Inbox&lt;/strong&gt;” view.  This shows everything new and unread (and
+you can limit it to where you have been mentioned/where you are
+following).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Alternatively, check the “&lt;strong&gt;Recent topics&lt;/strong&gt;” view.  This will show
+you every topic that has been active, sorted by most recent.  You
+can read the topics and see if there’s anything interesting.  When
+you click on a topic, you can scroll back to all the old history,
+not just the unread messages.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;If you want&lt;/em&gt;, you can scroll the “Combined feed” that shows
+everything if you want.  This has all the messages mixed together,
+which will be hard to follow, but you might see something that
+catches your eye.  Click the topic name and you will narrow to that
+topic and see the whole thing.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Then, and I can’t emphasize this enough, mark everything as read.
+It’s in the past, you won’t catch up.  If something is still
+relevant, it will re-appear in the recent topics and you can still see
+all the history.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A variant of this is to go click on each channel separately on the
+sidebar, which makes its recent topics appear.  You can then either
+browse the channel in chronological order or click on the relevant
+topics to narrow to them.&lt;/p&gt;
+&lt;p&gt;You can select “Inbox” or “Recent topics” as your default view.&lt;/p&gt;
+&lt;p&gt;Even if you try to follow everything, when you come back from a
+vacation or similar, do this and “mark all as read”.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="strategy-if-you-follow-everything"&gt;
+&lt;h2&gt;Strategy: if you follow everything&lt;/h2&gt;
+&lt;p&gt;Some people want to try to follow everything.  In this case, set
+&lt;strong&gt;combined feed&lt;/strong&gt; as your default home view (Personal settings &amp;gt;
+Preferences) and you will see every message in chronological order
+(with all the topics interleaved).  This lets you quickly follow new
+things, but can easily become overwhelming.  When you see something
+that is interesting, you click on its topic and see the history of
+that topic.&lt;/p&gt;
+&lt;p&gt;You might want to disable the auto-follow settings (in your personal
+settings).  Since you follow everything on your own time, you don’t
+need to&lt;/p&gt;
+&lt;p&gt;In reality, I often combine these strategies.  I’m one of the topic
+curators, so I tend to follow everything.  Still, if I’m away from a
+few days it’s too much, so I click through each channel separately to
+catch up by-topic before going back to the combined feed.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="strategies-to-follow-what-s-important-to-you"&gt;
+&lt;h2&gt;Strategies to follow what’s important to you&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;For your most important channels, you can pin the to the top.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;“Follow” certain topics so that you get notified.  I do this for
+topics such as “lunch” (“where are we eating today?”)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;If you don’t look often, change your personal settings to
+automatically follow any topic you get &amp;#64;-mentioned in or interact
+in.  Un-follow them if/when your input is no longer needed.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Set up alert words (personal settings) which tag certain words as
+&amp;#64;-mentions.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="strategies-to-ignore-what-is-not-important-to-you"&gt;
+&lt;h2&gt;Strategies to ignore what is not important to you&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;You can be in a channel but have it muted, so you don’t see it by
+default, but you can be mentioned within in (and you can see it when
+you click on it).  If there’s a private channel, this is probably a
+better strategy than not being in it (since you can’t as easily
+re-join).  This also means it’s easy to occasionally click on it to
+see what’s going on, while not taking up mental space on a daily
+basis.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Mute specific high-volume topics that are not relevant to you.  I do
+this for some high-volume automated alerts.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Change the “followed messages count” to only include followed
+topics, DMs, and mentions” - so that indicator isn’t always taking
+your mental focus.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;section id="emoji-reactions"&gt;
+&lt;h2&gt;Emoji reactions&lt;/h2&gt;
+&lt;p&gt;The organizations I am in often use Emoji reactions.  This works like
+other places, but there are some conventions I try to use (note these
+are something I think, not an official policy or anything):&lt;/p&gt;
+&lt;p&gt;For expressing agreement/disagreement:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;🔼 (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:upvote:&lt;/span&gt;&lt;/code&gt;): Reacting to a concrete suggestion, it means “in no
+uncertain terms I approve of you taking that action”.  I use this,
+and the following four, since “no one is answering, what should I
+do?” is a big problem with decisions via chat.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;⏫ (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:double_up:&lt;/span&gt;&lt;/code&gt;): I agree with you and am willing to do work to
+help make it possible.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;↕️ (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:up_down:&lt;/span&gt;&lt;/code&gt;): I’m neutral&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;🔽 (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:downvote:&lt;/span&gt;&lt;/code&gt;): I don’t support this action&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;⏬ (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:double_down:&lt;/span&gt;&lt;/code&gt;): I don’t support this action and am willing to
+do work for some other sort of solution.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;👍 (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:+1:&lt;/span&gt;&lt;/code&gt;): General “I agree with the sentiment” message, but
+perhaps less specific than the upvote arrows.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;✔️ (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:check_mark:&lt;/span&gt;&lt;/code&gt;) and similar: I have done whatever was in this
+message.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;🧾 (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:receipt:&lt;/span&gt;&lt;/code&gt;): I’ve read the message and acknowledge receipt but
+no other comment yet.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;🛠️ (&lt;code class="docutils literal notranslate"&gt;&lt;span class="pre"&gt;:working_on_it:&lt;/span&gt;&lt;/code&gt;): I’m working on this now.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Anything else means some general sentiment, usually positive, but no
+specific meaning to me.  You can figure out some sentiments by what
+it is and/or how (in)frequently it’s used.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For the voting things, it’s something I once read was used in some
+other open source project, but I can’t find any trace of it.  The
+system was based on a {-2, -1, 0, +1, +2} to be able to express not
+just “good idea” but “who has time/willingness to do something”.  A
+human needs to do the final interpretation of the results.  Maybe I
+should write about this elsewhere.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="summary"&gt;
+&lt;h2&gt;Summary&lt;/h2&gt;
+&lt;p&gt;When you use Zulip chat, you get a ton of information, but you have
+ways to filter it if you need.  I think this also gives good
+possibilities for passively following along, which is also helps with
+onboarding and learning things.&lt;/p&gt;
+&lt;/section&gt;
+&lt;section id="see-also"&gt;
+&lt;h2&gt;See also&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://zulip.com/help/getting-started-with-zulip"&gt;Zulip official docs, getting started guide&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://doi.org/10.5281/zenodo.18624144"&gt;Zulip quick start guide&lt;/a&gt;
+by people I know.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;a class="reference external" href="https://blog.zulip.com/2025/01/27/year-in-review-2024/"&gt;Zulip 2024 in
+review&lt;/a&gt; that
+gives some underused features.e&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/section&gt;
+&lt;/section&gt;
+</content>
+    <link href="https://rkd.zgib.net/blog/2026/zulip-guide/"/>
+    <summary>Zulip is a chat platform (open-source and self-hostable).  I think it
+is very good, but often confusing to newcomers.  This post explains
+how I see it and how I think others can manage all the information.
+This isn’t meant to be a Zulip basics guide.</summary>
+    <published>2026-06-29T00:00:00+00:00</published>
+  </entry>
+</feed>
