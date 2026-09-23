@@ -10,7 +10,7 @@ category: work
 Roads don't have to accept responsibility of who drives on them.
 There are some standards for being safe, though.  Imagine how much all
 construction would get slowed down if it gets bogged down in
-administartive work looking in detail about who goes over the road?
+administrative work looking in detail about who goes over the road?
 
 Even if, like me, you don't want the world overflowing with cars,
 hopefully you agree that the best way to do that isn't to excessively
@@ -22,25 +22,25 @@ increase the costs of roads.
 In my work, we maintain various learning platforms.  This is what one
 of their privacy notices could look like:
 
-```{admonition} Privacy notice for student data
+:::{admonition} Privacy notice for student data
 * Data contains: whatever you upload
 * Data source: you, when you upload
 * Data usage: as you choose to analyze it
 * Data removal: when you delete it
 * To update or correct data: correct it yourself
-```
+:::
 
 Or this, for the assignments submitted via the platform:
 
-```{admonition} Privacy notice for student data
+:::{admonition} Privacy notice for student data
 * Data contains: whatever your teacher requests you submit (in
-  accordince with privacy notice for teaching)
-* Data source: you (in accordince with privacy notice for teaching)
-* Data usage: as decided by your teacher (in accordince with privacy notice for teaching)
+  accordance with privacy notice for teaching)
+* Data source: you (in accordance with privacy notice for teaching)
+* Data usage: as decided by your teacher (in accordance with privacy notice for teaching)
 * Data removal: when your teacher deletes it or requests we remove
-their course page (in accordince with privacy notice for teaching)
-* To update or correct data: contact your teacher (in accordince with privacy notice for teaching)
-```
+their course page (in accordance with privacy notice for teaching)
+* To update or correct data: contact your teacher (in accordance with privacy notice for teaching)
+:::
 
 As you can see from this, the we and the platform itself isn't
 deciding how the data is used.  Students can use in for their own
