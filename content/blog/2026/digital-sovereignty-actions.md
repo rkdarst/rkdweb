@@ -113,7 +113,7 @@ world and is in the guest network.
 I got Raspberry Pis since it's a Europan company and I wanted new things
 that would have a long lifetime.  To increase reliability, I made the
 root filesystem on the SSD cards to read only
-({doc}`debian-read-only-root`).  The idea is I want to treat these like
+({doc}`/blog/2026/debian-read-only-root`).  The idea is I want to treat these like
 an appliance with a long lifetime, not so getting I mess with all the
 time.
 
