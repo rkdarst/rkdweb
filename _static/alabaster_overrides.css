@@ -1,0 +1,7 @@
+.document .sphinxsidebar .caption {
+  font-size: 20px;
+}
+
+div.sphinxsidebar ul li.toctree-l1 > a {
+    font-size: 100%;
+}
